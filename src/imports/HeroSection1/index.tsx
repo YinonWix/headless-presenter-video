@@ -1,0 +1,1155 @@
+import svgPaths from "./svg-wf3q0cumwo";
+import imgUntitledGemini3NanoBananaPro202609031332391 from "./d3c17af8b58c8e4d109ffef4a7eb4e8d644b0204.png";
+import imgUntitledTopazImageUpscale202609061352101 from "./41f2e0a3d2024745d9838f86a965b8e3a2cb1363.png";
+import imgFrame1707481694 from "./a8c0207cf3992ab8033e992b7c05f00a9f26e378.png";
+import imgImage989433 from "./21e5e6eac458ebf600a4c55670eb534f6b000cd7.png";
+import imgImage11691 from "./bedc8dfa19a4fdf720e49874764ed414aa24d3df.png";
+import imgImage10973 from "./29d041da798c74cee7c13f0692b41e43c3fbdaec.png";
+import imgImage1631 from "./700e7090f17dddde8af068077d364cf4846de9e4.png";
+import imgImage1632 from "./fded9adc287fdd960bb04e2137c8adf470a00920.png";
+import imgImage1633 from "./9b27c6ff26b99b83fa84a002f297d2a922b1de54.png";
+import imgImage6262 from "./2a1b0d9dcd48d41cecdde341ef97d0450d483d83.png";
+import imgUntitledGemini3NanoBananaPro202609030927411 from "./a646898466a1a8a83119144a57d5989a1ffb8405.png";
+
+function Frame10() {
+  return <div className="absolute h-[1035px] left-0 top-[47px] w-[1920px]" />;
+}
+
+function Frame4() {
+  return (
+    <div className="bg-[#e5fb79] content-stretch flex items-center justify-center px-[34px] py-[13px] relative rounded-[23.68px] shrink-0">
+      <p className="[word-break:break-word] font-['Questrial:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#1c1d21] text-[20.72px] tracking-[-0.444px] whitespace-nowrap" dir="auto">
+        Shop
+      </p>
+    </div>
+  );
+}
+
+function Frame12() {
+  return (
+    <div className="content-stretch flex gap-[33px] items-center overflow-clip relative shrink-0 w-full">
+      <p className="[word-break:break-word] font-['Questrial:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20.72px] text-black tracking-[-0.444px] whitespace-nowrap">Explore</p>
+      <Frame4 />
+      <p className="[word-break:break-word] font-['Questrial:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20.72px] text-black tracking-[-0.444px] whitespace-nowrap">Archive</p>
+    </div>
+  );
+}
+
+function Frame3() {
+  return (
+    <div className="absolute bg-white content-stretch flex flex-col h-[70px] items-start left-[1490px] px-[32px] py-[10px] rounded-[20px] top-[944px] w-[393px]">
+      <Frame12 />
+    </div>
+  );
+}
+
+function Frame31() {
+  return (
+    <div className="absolute h-[409px] left-0 overflow-clip rounded-[7px] top-0 w-[599px]">
+      <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[7px]">
+        <div className="absolute bg-[#1c1d21] inset-0 rounded-[7px]" />
+        <div className="absolute inset-0 overflow-hidden rounded-[7px]">
+          <img alt="" className="absolute h-[195.22%] left-0 max-w-none top-[-57.63%] w-full" src={imgFrame1707481694} />
+        </div>
+      </div>
+      <div className="absolute h-[937.908px] left-[-13px] top-[-110px] w-[625.061px]" data-name="image 989433">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage989433} />
+      </div>
+      <div className="absolute h-[806px] left-[-3.01px] top-[-210.01px] w-[606px]" data-name="image 11691">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage11691} />
+      </div>
+      <div className="absolute h-[522px] left-0 top-[-26px] w-[629px]" data-name="image 10973">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[115.63%] left-[-15.96%] max-w-none top-[-0.39%] w-[128.17%]" src={imgImage10973} />
+        </div>
+      </div>
+      <div className="absolute bottom-[-273px] h-[830px] left-[-7px] w-[613px]" data-name="image 1631">
+        <div aria-hidden className="absolute inset-0 pointer-events-none">
+          <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1631} />
+          <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1632} />
+          <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage10973} />
+          <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage1633} />
+        </div>
+      </div>
+      <div className="absolute flex h-[828px] items-center justify-center left-[-25px] top-[-66px] w-[624px]">
+        <div className="-scale-y-100 flex-none rotate-180">
+          <div className="h-[828px] relative w-[624px]" data-name="image 6262">
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <img alt="" className="absolute h-[101.7%] left-[-3.28%] max-w-none top-[5.21%] w-[101.64%]" src={imgImage6262} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-gradient-to-b from-[12.5%] from-[rgba(142,94,77,0)] h-[195.312px] left-[-5.84px] to-[#8a5138] to-[98.683%] top-[273.84px] w-[603.965px]" />
+      <p className="[word-break:break-word] absolute font-['Helvetica:Regular',sans-serif] leading-[normal] left-[30.22px] not-italic text-[#f5f4f3] text-[24.038px] top-[336.93px] w-[330.528px]">Custom synthesis of labelled compounds</p>
+    </div>
+  );
+}
+
+function Frame16() {
+  return (
+    <div className="absolute h-[409px] left-0 overflow-clip top-[58px] w-[599px]">
+      <Frame31 />
+    </div>
+  );
+}
+
+function Frame17() {
+  return (
+    <div className="absolute h-[36px] left-0 overflow-clip top-0 w-[593.116px]">
+      <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] leading-[normal] left-0 not-italic text-[#dad7d2] text-[31px] top-0 whitespace-pre">{`Winter/ 2027           New         Collection`}</p>
+      <div className="-translate-y-1/2 absolute h-0 left-[97.64%] right-0 top-1/2" data-name="Vector">
+        <div className="absolute inset-[-0.75px_-5.35%]">
+          <svg className="block size-full" fill="none" height="1.5" preserveAspectRatio="none" viewBox="0 0 15.5224 1.5" width="15.5224">
+            <path d="M0.75 0.75H14.7724" id="Vector" stroke="#DAD7D2" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame15() {
+  return (
+    <div className="absolute h-[467px] left-0 overflow-clip top-0 w-[599px]">
+      <Frame16 />
+      <Frame17 />
+    </div>
+  );
+}
+
+function Frame7() {
+  return (
+    <div className="absolute h-[467px] left-[34.01px] overflow-clip top-0 w-[599px]">
+      <Frame15 />
+    </div>
+  );
+}
+
+function LucidePlus() {
+  return (
+    <div className="absolute left-[574.08px] size-[24.038px] top-[3.01px]" data-name="lucide/plus">
+      <svg className="absolute block inset-0 size-full" fill="none" height="24.0384" preserveAspectRatio="none" viewBox="0 0 24.0384 24.0384" width="24.0384">
+        <g id="lucide/plus">
+          <path d={svgPaths.p154c6980} id="Vector" stroke="#E5FB79" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.0032" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Frame19() {
+  return (
+    <div className="absolute h-[29px] left-[34.01px] overflow-clip top-[24.14px] w-[598.12px]">
+      <p className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[normal] left-0 not-italic text-[#dad7d2] text-[25px] top-0 whitespace-nowrap">Lightweight Sole</p>
+      <LucidePlus />
+    </div>
+  );
+}
+
+function LucidePlus1() {
+  return (
+    <div className="absolute left-[574.08px] size-[24.038px] top-[3.01px]" data-name="lucide/plus">
+      <svg className="absolute block inset-0 size-full" fill="none" height="24.0384" preserveAspectRatio="none" viewBox="0 0 24.0384 24.0384" width="24.0384">
+        <g id="lucide/plus">
+          <path d={svgPaths.p3eb9100} id="Vector" stroke="#E5FB79" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.0032" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Frame20() {
+  return (
+    <div className="absolute h-[29px] left-[34.01px] overflow-clip top-[105.28px] w-[598.12px]">
+      <p className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[normal] left-0 not-italic text-[#dad7d2] text-[25px] top-0 whitespace-nowrap">Urban Commuting</p>
+      <LucidePlus1 />
+    </div>
+  );
+}
+
+function LucidePlus2() {
+  return (
+    <div className="absolute left-[574.09px] size-[24.038px] top-[3.39px]" data-name="lucide/plus">
+      <svg className="absolute block inset-0 size-full" fill="none" height="24.0384" preserveAspectRatio="none" viewBox="0 0 24.0384 24.0384" width="24.0384">
+        <g id="lucide/plus">
+          <path d={svgPaths.pc992640} id="Vector" stroke="#E5FB79" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.0032" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Frame21() {
+  return (
+    <div className="absolute h-[29px] left-[34px] overflow-clip top-[183px] w-[598.128px]">
+      <p className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[normal] left-0 not-italic text-[#dad7d2] text-[25px] top-0 whitespace-nowrap">Sustainable Materials</p>
+      <LucidePlus2 />
+    </div>
+  );
+}
+
+function LucidePlus3() {
+  return (
+    <div className="absolute left-[574.08px] size-[24.038px] top-[3px]" data-name="lucide/plus">
+      <svg className="absolute block inset-0 size-full" fill="none" height="24.0384" preserveAspectRatio="none" viewBox="0 0 24.0384 24.0384" width="24.0384">
+        <g id="lucide/plus">
+          <path d={svgPaths.p15a57000} id="Vector" stroke="#E5FB79" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.0032" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Frame22() {
+  return (
+    <div className="absolute h-[29px] left-[34.01px] overflow-clip top-[264.53px] w-[598.12px]">
+      <p className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[normal] left-0 not-italic text-[#dad7d2] text-[25px] top-0 whitespace-nowrap">Waterproof Technology</p>
+      <LucidePlus3 />
+    </div>
+  );
+}
+
+function Frame18() {
+  return (
+    <div className="absolute h-[293.527px] left-0 overflow-clip top-[503px] w-[667px]">
+      <div className="absolute h-0 left-0 top-0 w-[667px]">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" height="1" preserveAspectRatio="none" viewBox="0 0 667 1" width="667">
+            <line id="Line 269" stroke="#1C1D21" x2="667" y1="0.5" y2="0.5" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute h-0 left-0 top-[80.01px] w-[667px]">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" height="1" preserveAspectRatio="none" viewBox="0 0 667 1" width="667">
+            <line id="Line 270" stroke="#DAD7D2" x2="667" y1="0.5" y2="0.5" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute h-0 left-0 top-[160px] w-[667px]">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" height="1" preserveAspectRatio="none" viewBox="0 0 667 1" width="667">
+            <line id="Line 270" stroke="#DAD7D2" x2="667" y1="0.5" y2="0.5" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute h-0 left-0 top-[240.01px] w-[667px]">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" height="1" preserveAspectRatio="none" viewBox="0 0 667 1" width="667">
+            <line id="Line 270" stroke="#DAD7D2" x2="667" y1="0.5" y2="0.5" />
+          </svg>
+        </div>
+      </div>
+      <Frame19 />
+      <Frame20 />
+      <Frame21 />
+      <Frame22 />
+    </div>
+  );
+}
+
+function Frame14() {
+  return (
+    <div className="absolute h-[796.527px] left-0 overflow-clip top-[28px] w-[667px]">
+      <Frame7 />
+      <Frame18 />
+    </div>
+  );
+}
+
+function Frame6() {
+  return (
+    <div className="absolute h-[853px] left-0 overflow-clip top-0 w-[667px]">
+      <Frame14 />
+      <div className="absolute h-[410px] left-[34px] pointer-events-none rounded-[7px] top-[86px] w-[598px]" data-name="untitled_Gemini 3 (Nano Banana Pro)_2026-09-03_09-27-41 1">
+        <div className="absolute inset-0 overflow-hidden rounded-[7px]">
+          <img alt="" className="absolute h-full left-[-11.42%] max-w-none top-0 w-[122.84%]" src={imgUntitledGemini3NanoBananaPro202609030927411} />
+        </div>
+        <div aria-hidden className="absolute border border-[#dad7d2] border-solid inset-0 rounded-[7px]" />
+      </div>
+    </div>
+  );
+}
+
+function Frame13() {
+  return (
+    <div className="absolute h-[853px] left-[35px] overflow-clip top-[160.75px] w-[667px]">
+      <div className="absolute bg-[rgba(166,166,166,0.2)] h-[853px] left-0 rounded-[20px] top-0 w-[667px]" />
+      <Frame6 />
+    </div>
+  );
+}
+
+function Frame9() {
+  return (
+    <div className="[word-break:break-word] content-stretch flex font-['Manrope:Regular',sans-serif] font-normal gap-[29px] items-center leading-[1.2] relative shrink-0 text-[14px] text-black whitespace-nowrap">
+      <p className="relative shrink-0" dir="auto">
+        Blog
+      </p>
+      <p className="relative shrink-0">Where we ship</p>
+      <p className="relative shrink-0">Contact</p>
+    </div>
+  );
+}
+
+function LucideContrast() {
+  return (
+    <div className="relative shrink-0 size-[13px]" data-name="lucide/contrast">
+      <svg className="absolute block inset-0 size-full" fill="none" height="13" preserveAspectRatio="none" viewBox="0 0 13 13" width="13">
+        <g clipPath="url(#clip0_0_189)" id="lucide/contrast">
+          <g id="Vector">
+            <path d={svgPaths.pab83980} stroke="black" strokeLinecap="round" strokeLinejoin="round" />
+            <path d={svgPaths.pf997200} stroke="black" strokeLinecap="round" strokeLinejoin="round" />
+          </g>
+        </g>
+        <defs>
+          <clipPath id="clip0_0_189">
+            <rect fill="white" height="13" width="13" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+  );
+}
+
+function Frame24() {
+  return (
+    <div className="content-stretch flex gap-[5px] items-center relative shrink-0">
+      <LucideContrast />
+      <p className="[word-break:break-word] font-['Manrope:Regular',sans-serif] font-normal leading-[1.2] relative shrink-0 text-[14px] text-black whitespace-nowrap">Accessibility</p>
+    </div>
+  );
+}
+
+function GlobeStreamlineGuidanceFree() {
+  return (
+    <div className="relative shrink-0 size-[13px]" data-name="Globe Streamline Guidance – Free">
+      <svg className="absolute block inset-0 size-full" fill="none" height="13" preserveAspectRatio="none" viewBox="0 0 13 13" width="13">
+        <g clipPath="url(#clip0_0_187)" id="Globe Streamline Guidance â Free">
+          <path d={svgPaths.p3793aa00} id="Vector" stroke="black" />
+        </g>
+        <defs>
+          <clipPath id="clip0_0_187">
+            <rect fill="white" height="13" width="13" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+  );
+}
+
+function Frame25() {
+  return (
+    <div className="content-stretch flex gap-[5px] items-end relative shrink-0">
+      <GlobeStreamlineGuidanceFree />
+      <p className="[word-break:break-word] font-['Manrope:Regular',sans-serif] font-normal leading-[1.2] relative shrink-0 text-[14px] text-black whitespace-nowrap">Location</p>
+    </div>
+  );
+}
+
+function Frame26() {
+  return (
+    <div className="content-stretch flex gap-[5px] items-center justify-center relative shrink-0 w-[32px]">
+      <p className="[word-break:break-word] font-['Manrope:Regular',sans-serif] font-normal leading-[1.2] relative shrink-0 text-[14px] text-black whitespace-nowrap">EN</p>
+      <div className="h-[4.25px] relative shrink-0 w-[8.5px]" data-name="Vector">
+        <div className="absolute inset-[-11.76%_-5.88%]">
+          <svg className="block size-full" fill="none" height="5.25" preserveAspectRatio="none" viewBox="0 0 9.5 5.25" width="9.5">
+            <path d="M0.5 0.5L4.75 4.75L9 0.5" id="Vector" stroke="black" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SearchFill() {
+  return (
+    <div className="absolute inset-[0.8%_0.01%_0.07%_0.85%]" data-name="Search-Fill">
+      <svg className="absolute block inset-0 size-full" fill="none" height="12.8879" preserveAspectRatio="none" viewBox="0 0 12.8879 12.8879" width="12.8879">
+        <g id="Search-Fill">
+          <path d={svgPaths.p26e99100} fill="black" id="Union" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function SearchFillStreamlineOutlinedFillMaterialProFree() {
+  return (
+    <div className="col-1 ml-0 mt-0 overflow-clip relative row-1 size-[13px]" data-name="Search Fill Streamline Outlined Fill - Material Pro Free">
+      <SearchFill />
+    </div>
+  );
+}
+
+function Group2() {
+  return (
+    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
+      <SearchFillStreamlineOutlinedFillMaterialProFree />
+    </div>
+  );
+}
+
+function Frame33() {
+  return (
+    <div className="content-stretch flex gap-[17px] h-[17.48px] items-center relative shrink-0 w-full">
+      <Frame24 />
+      <Frame25 />
+      <Frame26 />
+      <Group2 />
+    </div>
+  );
+}
+
+function Frame23() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative shrink-0 w-[277px]">
+      <Frame33 />
+    </div>
+  );
+}
+
+function Frame8() {
+  return (
+    <div className="absolute content-stretch flex items-center justify-between left-[24px] top-[14.75px] w-[1872px]">
+      <Frame9 />
+      <Frame23 />
+    </div>
+  );
+}
+
+function Header() {
+  return (
+    <div className="absolute contents left-0 top-0" data-name="Header">
+      <div className="absolute backdrop-blur-[2.05px] bg-[#e5fb79] border border-[rgba(255,255,255,0.33)] border-solid h-[47px] left-0 top-0 w-[1920px]" data-name="Header BG" />
+      <Frame8 />
+    </div>
+  );
+}
+
+function Group15() {
+  return (
+    <div className="absolute inset-[8.03%_89.87%_90.95%_9.53%]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="11.0004" preserveAspectRatio="none" viewBox="0 0 11.4611 11.0004" width="11.4611">
+        <g id="Group 2147239894">
+          <path d={svgPaths.pe128af0} fill="#DAD7D2" id="Vector" />
+          <path d={svgPaths.p34e4de00} fill="#DAD7D2" id="Vector_2" />
+          <path d={svgPaths.p359d680} fill="#DAD7D2" id="Vector_3" />
+          <path d={svgPaths.p13b1a00} fill="#DAD7D2" id="Vector_4" />
+          <path d={svgPaths.pb455700} fill="#DAD7D2" id="Vector_5" />
+          <path d={svgPaths.p3886cc00} fill="#DAD7D2" id="Vector_6" />
+          <path d={svgPaths.p135ad400} fill="#DAD7D2" id="Vector_7" />
+          <path d={svgPaths.p27e4c300} fill="#DAD7D2" id="Vector_8" />
+          <path d={svgPaths.p2f9d4fd0} fill="#DAD7D2" id="Vector_9" />
+          <path d={svgPaths.pb7ef200} fill="#DAD7D2" id="Vector_10" />
+          <path d={svgPaths.p1e63bb80} fill="#DAD7D2" id="Vector_11" />
+          <path d={svgPaths.p26256100} fill="#DAD7D2" id="Vector_12" />
+          <path d={svgPaths.p30288100} fill="#DAD7D2" id="Vector_13" />
+          <path d={svgPaths.p3b47c300} fill="#DAD7D2" id="Vector_14" />
+          <path d={svgPaths.p37883200} fill="#DAD7D2" id="Vector_15" />
+          <path d={svgPaths.p7c90f00} fill="#DAD7D2" id="Vector_16" />
+          <path d={svgPaths.p268acf80} fill="#DAD7D2" id="Vector_17" />
+          <path d={svgPaths.p1ae3b400} fill="#DAD7D2" id="Vector_18" />
+          <path d={svgPaths.p35bb6900} fill="#DAD7D2" id="Vector_19" />
+          <path d={svgPaths.p2b109180} fill="#DAD7D2" id="Vector_20" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Group10() {
+  return (
+    <div className="absolute inset-[7.51%_94.43%_90.02%_1.82%]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="26.6967" preserveAspectRatio="none" viewBox="0 0 71.9551 26.6967" width="71.9551">
+        <g id="Group 1000009897">
+          <path d={svgPaths.p1f397d80} fill="#E5FB79" id="Vector" />
+          <path d={svgPaths.p33408a00} fill="#E5FB79" id="Vector_2" />
+          <path d={svgPaths.p1955ed80} fill="#E5FB79" id="Vector_3" />
+          <path d={svgPaths.p27748400} fill="#E5FB79" id="Vector_4" />
+          <path d={svgPaths.p3b669e00} fill="#E5FB79" id="Vector_5" />
+          <path d={svgPaths.p1839a300} fill="#E5FB79" id="Vector_6" />
+          <path d={svgPaths.pbb33f0} fill="#E5FB79" id="Vector_7" />
+          <path d={svgPaths.p3269f780} fill="#E5FB79" id="Vector_8" />
+          <path d={svgPaths.p108db280} fill="#E5FB79" id="Vector_9" />
+          <path d={svgPaths.p3e04c880} fill="#E5FB79" id="Vector_10" />
+          <path d={svgPaths.p26009080} fill="#E5FB79" id="Vector_11" />
+          <path d={svgPaths.p39ff6f00} fill="#E5FB79" id="Vector_12" />
+          <path d={svgPaths.p33af7b00} fill="#E5FB79" id="Vector_13" />
+          <path d={svgPaths.p53f93c0} fill="#E5FB79" id="Vector_14" />
+          <path d={svgPaths.p64da200} fill="#E5FB79" id="Vector_15" />
+          <path d={svgPaths.pce74900} fill="#E5FB79" id="Vector_16" />
+          <path d={svgPaths.p251d1080} fill="#E5FB79" id="Vector_17" />
+          <path d={svgPaths.p3b766e00} fill="#E5FB79" id="Vector_18" />
+          <path d={svgPaths.p8ad480} fill="#E5FB79" id="Vector_19" />
+          <path d={svgPaths.p1c16f800} fill="#E5FB79" id="Vector_20" />
+          <path d={svgPaths.p30298000} fill="#E5FB79" id="Vector_21" />
+          <path d={svgPaths.p2eae4580} fill="#E5FB79" id="Vector_22" />
+          <path d={svgPaths.p1e635e00} fill="#E5FB79" id="Vector_23" />
+          <path d={svgPaths.p22dd1680} fill="#E5FB79" id="Vector_24" />
+          <path d={svgPaths.p208a0800} fill="#E5FB79" id="Vector_25" />
+          <path d={svgPaths.p7e75800} fill="#E5FB79" id="Vector_26" />
+          <path d={svgPaths.p10855500} fill="#E5FB79" id="Vector_27" />
+          <path d={svgPaths.p21ad8800} fill="#E5FB79" id="Vector_28" />
+          <path d={svgPaths.p18112380} fill="#E5FB79" id="Vector_29" />
+          <path d={svgPaths.p37367e00} fill="#E5FB79" id="Vector_30" />
+          <path d={svgPaths.p6b7b200} fill="#E5FB79" id="Vector_31" />
+          <path d={svgPaths.p1e4a8c80} fill="#E5FB79" id="Vector_32" />
+          <path d={svgPaths.p31975300} fill="#E5FB79" id="Vector_33" />
+          <path d={svgPaths.p1a465800} fill="#E5FB79" id="Vector_34" />
+          <path d={svgPaths.p3b8e6f00} fill="#E5FB79" id="Vector_35" />
+          <path d={svgPaths.p2f8c2f00} fill="#E5FB79" id="Vector_36" />
+          <path d={svgPaths.pdd81d70} fill="#E5FB79" id="Vector_37" />
+          <path d={svgPaths.p3c2c0d00} fill="#E5FB79" id="Vector_38" />
+          <path d={svgPaths.p3e126200} fill="#E5FB79" id="Vector_39" />
+          <path d={svgPaths.p1a6f0e00} fill="#E5FB79" id="Vector_40" />
+          <path d={svgPaths.p3dc26580} fill="#E5FB79" id="Vector_41" />
+          <path d={svgPaths.pc234480} fill="#E5FB79" id="Vector_42" />
+          <path d={svgPaths.pf5d3f00} fill="#E5FB79" id="Vector_43" />
+          <path d={svgPaths.p34883c00} fill="#E5FB79" id="Vector_44" />
+          <path d={svgPaths.p38533580} fill="#E5FB79" id="Vector_45" />
+          <path d={svgPaths.p25a7bcf0} fill="#E5FB79" id="Vector_46" />
+          <path d={svgPaths.p3b560d00} fill="#E5FB79" id="Vector_47" />
+          <path d={svgPaths.pa68e540} fill="#E5FB79" id="Vector_48" />
+          <path d={svgPaths.p3936d580} fill="#E5FB79" id="Vector_49" />
+          <path d={svgPaths.p210ef580} fill="#E5FB79" id="Vector_50" />
+          <path d={svgPaths.p2e95f400} fill="#E5FB79" id="Vector_51" />
+          <path d={svgPaths.p2d8ad480} fill="#E5FB79" id="Vector_52" />
+          <path d={svgPaths.p2ed83f00} fill="#E5FB79" id="Vector_53" />
+          <path d={svgPaths.p247e700} fill="#E5FB79" id="Vector_54" />
+          <path d={svgPaths.p1debd2f0} fill="#E5FB79" id="Vector_55" />
+          <path d={svgPaths.p2fde8e00} fill="#E5FB79" id="Vector_56" />
+          <path d={svgPaths.p230cd300} fill="#E5FB79" id="Vector_57" />
+          <path d={svgPaths.p3a835600} fill="#E5FB79" id="Vector_58" />
+          <path d={svgPaths.p33a94b00} fill="#E5FB79" id="Vector_59" />
+          <path d={svgPaths.p378ae180} fill="#E5FB79" id="Vector_60" />
+          <path d={svgPaths.p2d602d00} fill="#E5FB79" id="Vector_61" />
+          <path d={svgPaths.p2a697a00} fill="#E5FB79" id="Vector_62" />
+          <path d={svgPaths.p3fa5f280} fill="#E5FB79" id="Vector_63" />
+          <path d={svgPaths.p3fd75c00} fill="#E5FB79" id="Vector_64" />
+          <path d={svgPaths.p2211ab00} fill="#E5FB79" id="Vector_65" />
+          <path d={svgPaths.p1c40ea00} fill="#E5FB79" id="Vector_66" />
+          <path d={svgPaths.p12befc80} fill="#E5FB79" id="Vector_67" />
+          <path d={svgPaths.p35532400} fill="#E5FB79" id="Vector_68" />
+          <path d={svgPaths.p22a9b800} fill="#E5FB79" id="Vector_69" />
+          <path d={svgPaths.p69ba000} fill="#E5FB79" id="Vector_70" />
+          <path d={svgPaths.p2af55480} fill="#E5FB79" id="Vector_71" />
+          <path d={svgPaths.pcc0c400} fill="#E5FB79" id="Vector_72" />
+          <path d={svgPaths.pf1eff80} fill="#E5FB79" id="Vector_73" />
+          <path d={svgPaths.p2d81c00} fill="#E5FB79" id="Vector_74" />
+          <path d={svgPaths.p3438f580} fill="#E5FB79" id="Vector_75" />
+          <path d={svgPaths.p2c76ce80} fill="#E5FB79" id="Vector_76" />
+          <path d={svgPaths.p143bdb00} fill="#E5FB79" id="Vector_77" />
+          <path d={svgPaths.p38df4e00} fill="#E5FB79" id="Vector_78" />
+          <path d={svgPaths.p2db8aa40} fill="#E5FB79" id="Vector_79" />
+          <path d={svgPaths.p1ee3ca80} fill="#E5FB79" id="Vector_80" />
+          <path d={svgPaths.p1445e80} fill="#E5FB79" id="Vector_81" />
+          <path d={svgPaths.p243c6580} fill="#E5FB79" id="Vector_82" />
+          <path d={svgPaths.p21506d80} fill="#E5FB79" id="Vector_83" />
+          <path d={svgPaths.p169a6800} fill="#E5FB79" id="Vector_84" />
+          <path d={svgPaths.p211b0a00} fill="#E5FB79" id="Vector_85" />
+          <path d={svgPaths.p2dac17f0} fill="#E5FB79" id="Vector_86" />
+          <path d={svgPaths.p22ab1f80} fill="#E5FB79" id="Vector_87" />
+          <path d={svgPaths.p23339a80} fill="#E5FB79" id="Vector_88" />
+          <path d={svgPaths.p32995300} fill="#E5FB79" id="Vector_89" />
+          <path d={svgPaths.p48a9700} fill="#E5FB79" id="Vector_90" />
+          <path d={svgPaths.p2b03f580} fill="#E5FB79" id="Vector_91" />
+          <path d={svgPaths.p27888f80} fill="#E5FB79" id="Vector_92" />
+          <path d={svgPaths.p23697300} fill="#E5FB79" id="Vector_93" />
+          <path d={svgPaths.peb4d000} fill="#E5FB79" id="Vector_94" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Logo() {
+  return (
+    <div className="absolute contents left-[35px] top-[76.75px]" data-name="Logo">
+      <p className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[0] left-[118px] not-italic text-[#dad7d2] text-[26px] top-[76.75px] whitespace-pre">
+        <span className="leading-[normal]">{`SOLE `}</span>
+        <span className="leading-[normal] tracking-[0.96px]">{` `}</span>
+        <span className="leading-[normal]">DROP</span>
+      </p>
+      <Group15 />
+      <Group10 />
+    </div>
+  );
+}
+
+function Frame1() {
+  return (
+    <div className="[word-break:break-word] content-stretch flex font-['Questrial:Regular',sans-serif] gap-[45px] items-center leading-none not-italic relative shrink-0 text-[#e5fb79] text-[16px] text-center whitespace-nowrap">
+      <p className="relative shrink-0">ABOUT US</p>
+      <p className="relative shrink-0">NEW DROPS</p>
+      <p className="relative shrink-0">MEN</p>
+      <p className="relative shrink-0">WOMEN</p>
+      <p className="relative shrink-0" dir="auto">
+        PERFORMANCE
+      </p>
+      <p className="relative shrink-0" dir="auto">
+        ACCESSORIES
+      </p>
+    </div>
+  );
+}
+
+function Menu() {
+  return (
+    <div className="-translate-x-1/2 absolute content-stretch flex flex-col h-[51px] items-start left-[calc(50%+5.5px)] px-[51px] py-[17px] rounded-[56px] top-[68.75px] w-[821px]" data-name="Menu">
+      <div aria-hidden className="absolute border border-[#e5fb79] border-solid inset-0 pointer-events-none rounded-[56px]" />
+      <Frame1 />
+    </div>
+  );
+}
+
+function LucideTrendingUp() {
+  return <div className="h-[16.711px] relative shrink-0 w-[25.067px]" data-name="lucide/trending-up" />;
+}
+
+function Frame27() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0">
+      <LucideTrendingUp />
+    </div>
+  );
+}
+
+function Button() {
+  return (
+    <div className="backdrop-blur-[15px] content-stretch flex h-[51px] items-center justify-center overflow-clip px-[20.816px] py-[10.625px] relative rounded-[69.063px] shrink-0 w-[261.245px]" data-name="Button">
+      <Frame27 />
+    </div>
+  );
+}
+
+function Frame32() {
+  return (
+    <div className="absolute content-stretch flex items-center left-[1481px] top-[68.75px] w-[205px]">
+      <Button />
+    </div>
+  );
+}
+
+function Frame() {
+  return (
+    <div className="backdrop-blur-[8.5px] bg-[#1c1d21] content-stretch flex h-[51px] items-center justify-center px-[24px] py-[12px] relative rounded-[44px] shrink-0 w-[130px]" data-name="Frame">
+      <div aria-hidden className="absolute border border-[rgba(96,91,85,0.33)] border-solid inset-0 pointer-events-none rounded-[44px]" />
+      <p className="[word-break:break-word] font-['Questrial:Regular',sans-serif] leading-none not-italic relative shrink-0 text-[#dad7d2] text-[16px] whitespace-nowrap">SIGN UP</p>
+    </div>
+  );
+}
+
+function Button1() {
+  return (
+    <div className="absolute content-stretch flex items-start left-0 top-0" data-name="Button">
+      <Frame />
+    </div>
+  );
+}
+
+function Frame2() {
+  return (
+    <div className="absolute h-[51px] left-[1756px] overflow-clip top-[68.74px] w-[130px]">
+      <Button1 />
+    </div>
+  );
+}
+
+function Group3() {
+  return (
+    <div className="col-1 ml-0 mt-0 relative row-1 size-[48.553px]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5535 48.5534" width="48.5535">
+        <g id="Group 472177336">
+          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="white" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Group1() {
+  return (
+    <div className="col-1 h-[24.398px] ml-0 mt-0 relative row-1 w-[24.876px]" data-name="Group">
+      <svg className="absolute block inset-0 size-full" fill="none" height="24.398" preserveAspectRatio="none" viewBox="0 0 24.8763 24.398" width="24.8763">
+        <g id="Group">
+          <path d={svgPaths.p3701f00} fill="white" id="Vector" stroke="white" strokeWidth="0.3" />
+          <path d={svgPaths.p188aa980} fill="white" id="Vector_2" stroke="white" strokeWidth="0.3" />
+          <path d={svgPaths.peadbc00} fill="white" id="Vector_3" stroke="white" strokeWidth="0.3" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Group() {
+  return (
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[62.51px] mt-[12.08px] place-items-start relative row-1" data-name="Group">
+      <Group1 />
+    </div>
+  );
+}
+
+function Group4() {
+  return (
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[52.15px] mt-0 place-items-start relative row-1">
+      <div className="col-1 ml-0 mt-0 relative row-1 size-[48.553px]">
+        <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
+          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="white" />
+        </svg>
+      </div>
+      <div className="col-1 ml-[50.68px] mt-0 relative row-1 size-[48.553px]">
+        <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
+          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="white" />
+        </svg>
+      </div>
+      <Group />
+    </div>
+  );
+}
+
+function Group6() {
+  return (
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1">
+      <Group3 />
+      <Group4 />
+    </div>
+  );
+}
+
+function Group7() {
+  return (
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[53.52px] mt-[0.39px] place-items-start relative row-1">
+      <Group6 />
+    </div>
+  );
+}
+
+function Group5() {
+  return (
+    <div className="col-1 ml-0 mt-0 relative row-1 size-[49.321px]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="49.3206" preserveAspectRatio="none" viewBox="0 0 49.3206 49.3206" width="49.3206">
+        <g id="Group 472177338">
+          <circle cx="24.6603" cy="24.6603" id="Ellipse 2388" r="24.1603" stroke="white" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Group8() {
+  return (
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-0 mt-0 place-items-start relative row-1">
+      <Group5 />
+    </div>
+  );
+}
+
+function Group11() {
+  return (
+    <div className="col-1 h-[29.577px] ml-[61.93px] mt-[11px] relative row-1 w-[30.16px]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="29.5769" preserveAspectRatio="none" viewBox="0 0 30.1606 29.5769" width="30.1606">
+        <g id="Group 1000009908">
+          <path d={svgPaths.p1e081200} fill="white" id="Vector" />
+          <path d={svgPaths.pec6980} fill="white" id="Vector_2" />
+          <path d={svgPaths.p2379f370} fill="white" id="Vector_3" />
+          <path d={svgPaths.p3edd8300} fill="white" id="Vector_4" />
+          <path d={svgPaths.p2b6b7080} fill="white" id="Vector_5" />
+          <path d={svgPaths.p190000} fill="white" id="Vector_6" />
+          <path d={svgPaths.p1be52c80} fill="white" id="Vector_7" />
+          <path d={svgPaths.p373902f0} fill="white" id="Vector_8" />
+          <path d={svgPaths.p30c44980} fill="white" id="Vector_9" />
+          <path d={svgPaths.p245b800} fill="white" id="Vector_10" />
+          <path d={svgPaths.p2e4e4a00} fill="white" id="Vector_11" />
+          <path d={svgPaths.p21a38600} fill="white" id="Vector_12" />
+          <path d={svgPaths.p3a5b8360} fill="white" id="Vector_13" />
+          <path d={svgPaths.p3b8b1f80} fill="white" id="Vector_14" />
+          <path d={svgPaths.p3ee20b00} fill="white" id="Vector_15" />
+          <path d={svgPaths.p37fc2340} fill="white" id="Vector_16" />
+          <path d={svgPaths.p2a4c6280} fill="white" id="Vector_17" />
+          <path d={svgPaths.p2db88f80} fill="white" id="Vector_18" />
+          <path d={svgPaths.p3c555b40} fill="white" id="Vector_19" />
+          <path d={svgPaths.p306d6580} fill="white" id="Vector_20" />
+          <path d={svgPaths.p11c1e700} fill="white" id="Vector_21" />
+          <path d={svgPaths.pa194e00} fill="white" id="Vector_22" />
+          <path d={svgPaths.p279f7580} fill="white" id="Vector_23" />
+          <path d={svgPaths.p2c4af600} fill="white" id="Vector_24" />
+          <path d={svgPaths.p1cf12e00} fill="white" id="Vector_25" />
+          <path d={svgPaths.p19ff8e00} fill="white" id="Vector_26" />
+          <path d={svgPaths.p3e200e00} fill="white" id="Vector_27" />
+          <path d={svgPaths.p38d21600} fill="white" id="Vector_28" />
+          <path d={svgPaths.p14c05c00} fill="white" id="Vector_29" />
+          <path d={svgPaths.p385c7c0} fill="white" id="Vector_30" />
+          <path d={svgPaths.p2351da80} fill="white" id="Vector_31" />
+          <path d={svgPaths.p16114900} fill="white" id="Vector_32" />
+          <path d={svgPaths.p2f5c9970} fill="white" id="Vector_33" />
+          <path d={svgPaths.p2872a400} fill="white" id="Vector_34" />
+          <path d={svgPaths.pcc9b080} fill="white" id="Vector_35" />
+          <path d={svgPaths.p3967fb00} fill="white" id="Vector_36" />
+          <path d={svgPaths.p3fa58400} fill="white" id="Vector_37" />
+          <path d={svgPaths.p33e94c80} fill="white" id="Vector_38" />
+          <path d={svgPaths.p7b8d80} fill="white" id="Vector_39" />
+          <path d={svgPaths.pe10ce00} fill="white" id="Vector_40" />
+          <path d={svgPaths.pa898570} fill="white" id="Vector_41" />
+          <path d={svgPaths.p3de13280} fill="white" id="Vector_42" />
+          <path d={svgPaths.p3c1bb740} fill="white" id="Vector_43" />
+          <path d={svgPaths.p25ff4a0} fill="white" id="Vector_44" />
+          <path d={svgPaths.p30802000} fill="white" id="Vector_45" />
+          <path d={svgPaths.p30b7e800} fill="white" id="Vector_46" />
+          <path d={svgPaths.p805b980} fill="white" id="Vector_47" />
+          <path d={svgPaths.p1356a640} fill="white" id="Vector_48" />
+          <path d={svgPaths.p15ff0e00} fill="white" id="Vector_49" />
+          <path d={svgPaths.p167b7400} fill="white" id="Vector_50" />
+          <path d={svgPaths.p233abd71} fill="white" id="Vector_51" />
+          <path d={svgPaths.p21e17080} fill="white" id="Vector_52" />
+          <path d={svgPaths.p1669e200} fill="white" id="Vector_53" />
+          <path d={svgPaths.p1ef7dd00} fill="white" id="Vector_54" />
+          <path d={svgPaths.pc376b00} fill="white" id="Vector_55" />
+          <path d={svgPaths.p25119280} fill="white" id="Vector_56" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Group12() {
+  return (
+    <div className="col-1 h-[24.758px] ml-[112.93px] mt-[12px] relative row-1 w-[34.708px]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="24.7581" preserveAspectRatio="none" viewBox="0 0 34.708 24.7581" width="34.708">
+        <g id="Group 1000009909">
+          <path d={svgPaths.p12c57800} fill="white" id="Vector" />
+          <path d={svgPaths.p305d0500} fill="white" id="Vector_2" />
+          <path d={svgPaths.p2c532c30} fill="white" id="Vector_3" />
+          <path d={svgPaths.p1110f900} fill="white" id="Vector_4" />
+          <path d={svgPaths.p3b3f7a80} fill="white" id="Vector_5" />
+          <path d={svgPaths.p2eba5f80} fill="white" id="Vector_6" />
+          <path d={svgPaths.p33ee6e00} fill="white" id="Vector_7" />
+          <path d={svgPaths.p328e5200} fill="white" id="Vector_8" />
+          <path d={svgPaths.p14d1fd10} fill="white" id="Vector_9" />
+          <path d={svgPaths.p32738400} fill="white" id="Vector_10" />
+          <path d={svgPaths.p3bd3c000} fill="white" id="Vector_11" />
+          <path d={svgPaths.p19845300} fill="white" id="Vector_12" />
+          <path d={svgPaths.p39ef3d00} fill="white" id="Vector_13" />
+          <path d={svgPaths.p3f4b4980} fill="white" id="Vector_14" />
+          <path d={svgPaths.p1f9d7980} fill="white" id="Vector_15" />
+          <path d={svgPaths.p5470100} fill="white" id="Vector_16" />
+          <path d={svgPaths.p110b8500} fill="white" id="Vector_17" />
+          <path d={svgPaths.p17692300} fill="white" id="Vector_18" />
+          <path d={svgPaths.p1e195080} fill="white" id="Vector_19" />
+          <path d={svgPaths.p34017580} fill="white" id="Vector_20" />
+          <path d={svgPaths.p2dd63e00} fill="white" id="Vector_21" />
+          <path d={svgPaths.p32a98880} fill="white" id="Vector_22" />
+          <path d={svgPaths.p2bc78b00} fill="white" id="Vector_23" />
+          <path d={svgPaths.pe86ca00} fill="white" id="Vector_24" />
+          <path d={svgPaths.p13674000} fill="white" id="Vector_25" />
+          <path d={svgPaths.p3babfd00} fill="white" id="Vector_26" />
+          <path d={svgPaths.p373ea500} fill="white" id="Vector_27" />
+          <path d={svgPaths.p1b6cba00} fill="white" id="Vector_28" />
+          <path d={svgPaths.p1eb21390} fill="white" id="Vector_29" />
+          <path d={svgPaths.p838700} fill="white" id="Vector_30" />
+          <path d={svgPaths.p1cbcb000} fill="white" id="Vector_31" />
+          <path d={svgPaths.p173c7100} fill="white" id="Vector_32" />
+          <path d={svgPaths.p3d5f9500} fill="white" id="Vector_33" />
+          <path d={svgPaths.p5f53400} fill="white" id="Vector_34" />
+          <path d={svgPaths.pa974300} fill="white" id="Vector_35" />
+          <path d={svgPaths.p2eb89580} fill="white" id="Vector_36" />
+          <path d={svgPaths.p1c408500} fill="white" id="Vector_37" />
+          <path d={svgPaths.p2a9e8180} fill="white" id="Vector_38" />
+          <path d={svgPaths.pe2a2d00} fill="white" id="Vector_39" />
+          <path d={svgPaths.p19d1c700} fill="white" id="Vector_40" />
+          <path d={svgPaths.p32bb2e00} fill="white" id="Vector_41" />
+          <path d={svgPaths.p3232fd00} fill="white" id="Vector_42" />
+          <path d={svgPaths.p28854300} fill="white" id="Vector_43" />
+          <path d={svgPaths.p8de5780} fill="white" id="Vector_44" />
+          <path d={svgPaths.p7df0c00} fill="white" id="Vector_45" />
+          <path d={svgPaths.p1ece9a00} fill="white" id="Vector_46" />
+          <path d={svgPaths.p2d355780} fill="white" id="Vector_47" />
+          <path d={svgPaths.p312bf700} fill="white" id="Vector_48" />
+          <path d={svgPaths.p186c5840} fill="white" id="Vector_49" />
+          <path d={svgPaths.p13a96800} fill="white" id="Vector_50" />
+          <path d={svgPaths.p1e9c7c80} fill="white" id="Vector_51" />
+          <path d={svgPaths.p1e37ce00} fill="white" id="Vector_52" />
+          <path d={svgPaths.p36008600} fill="white" id="Vector_53" />
+          <path d={svgPaths.p3348ce00} fill="white" id="Vector_54" />
+          <path d={svgPaths.p1f7f4a80} fill="white" id="Vector_55" />
+          <path d={svgPaths.p3b618480} fill="white" id="Vector_56" />
+          <path d={svgPaths.p8796800} fill="white" id="Vector_57" />
+          <path d={svgPaths.p13253200} fill="white" id="Vector_58" />
+          <path d={svgPaths.pe632900} fill="white" id="Vector_59" />
+          <path d={svgPaths.p205a8380} fill="white" id="Vector_60" />
+          <path d={svgPaths.p2f441800} fill="white" id="Vector_61" />
+          <path d={svgPaths.p2968ae00} fill="white" id="Vector_62" />
+          <path d={svgPaths.pca4eb80} fill="white" id="Vector_63" />
+          <path d={svgPaths.p60e3e90} fill="white" id="Vector_64" />
+          <path d={svgPaths.p1a14f500} fill="white" id="Vector_65" />
+          <path d={svgPaths.p4f9f180} fill="white" id="Vector_66" />
+          <path d={svgPaths.p8af9500} fill="white" id="Vector_67" />
+          <path d={svgPaths.p8109c00} fill="white" id="Vector_68" />
+          <path d={svgPaths.p2772e300} fill="white" id="Vector_69" />
+          <path d={svgPaths.p3473c00} fill="white" id="Vector_70" />
+          <path d={svgPaths.p36aad900} fill="white" id="Vector_71" />
+          <path d={svgPaths.p29e86300} fill="white" id="Vector_72" />
+          <path d={svgPaths.p2dc9c7e0} fill="white" id="Vector_73" />
+          <path d={svgPaths.p59eb7f2} fill="white" id="Vector_74" />
+          <path d={svgPaths.p310ccc00} fill="white" id="Vector_75" />
+          <path d={svgPaths.pa4700f0} fill="white" id="Vector_76" />
+          <path d={svgPaths.p5582400} fill="white" id="Vector_77" />
+          <path d={svgPaths.p4b09200} fill="white" id="Vector_78" />
+          <path d={svgPaths.p35898200} fill="white" id="Vector_79" />
+          <path d={svgPaths.p394ab200} fill="white" id="Vector_80" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Group13() {
+  return (
+    <div className="col-1 h-[29.175px] ml-[9.93px] mt-[10.01px] relative row-1 w-[29.606px]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="29.1746" preserveAspectRatio="none" viewBox="0 0 29.6057 29.1746" width="29.6057">
+        <g id="Group 1000009910">
+          <path d={svgPaths.p37a36100} fill="white" id="Vector" />
+          <path d={svgPaths.p39baad80} fill="white" id="Vector_2" />
+          <path d={svgPaths.p25bc7080} fill="white" id="Vector_3" />
+          <path d={svgPaths.p1845ea00} fill="white" id="Vector_4" />
+          <path d={svgPaths.p3d71300} fill="white" id="Vector_5" />
+          <path d={svgPaths.p1ce92500} fill="white" id="Vector_6" />
+          <path d={svgPaths.p2b642100} fill="white" id="Vector_7" />
+          <path d={svgPaths.p1f8c1300} fill="white" id="Vector_8" />
+          <path d={svgPaths.p1a3b8000} fill="white" id="Vector_9" />
+          <path d={svgPaths.p316a0800} fill="white" id="Vector_10" />
+          <path d={svgPaths.p7f1f880} fill="white" id="Vector_11" />
+          <path d={svgPaths.p37129900} fill="white" id="Vector_12" />
+          <path d={svgPaths.p15a587f0} fill="white" id="Vector_13" />
+          <path d={svgPaths.p249fb5c0} fill="white" id="Vector_14" />
+          <path d={svgPaths.p3bd6c80} fill="white" id="Vector_15" />
+          <path d={svgPaths.p2ca2db00} fill="white" id="Vector_16" />
+          <path d={svgPaths.p29a5cf00} fill="white" id="Vector_17" />
+          <path d={svgPaths.p18c87100} fill="white" id="Vector_18" />
+          <path d={svgPaths.p6f28640} fill="white" id="Vector_19" />
+          <path d={svgPaths.p1c0d5380} fill="white" id="Vector_20" />
+          <path d={svgPaths.p2291900} fill="white" id="Vector_21" />
+          <path d={svgPaths.p3bd7de00} fill="white" id="Vector_22" />
+          <path d={svgPaths.p1a18cb00} fill="white" id="Vector_23" />
+          <path d={svgPaths.p2abef000} fill="white" id="Vector_24" />
+          <path d={svgPaths.p2ba65700} fill="white" id="Vector_25" />
+          <path d={svgPaths.p18d1cc28} fill="white" id="Vector_26" />
+          <path d={svgPaths.p19e3b5f0} fill="white" id="Vector_27" />
+          <path d={svgPaths.p27ff0500} fill="white" id="Vector_28" />
+          <path d={svgPaths.p258c8f80} fill="white" id="Vector_29" />
+          <path d={svgPaths.p3b7f5b00} fill="white" id="Vector_30" />
+          <path d={svgPaths.p2f818300} fill="white" id="Vector_31" />
+          <path d={svgPaths.p39683880} fill="white" id="Vector_32" />
+          <path d={svgPaths.p2da25c00} fill="white" id="Vector_33" />
+          <path d={svgPaths.p3bd13200} fill="white" id="Vector_34" />
+          <path d={svgPaths.p28817500} fill="white" id="Vector_35" />
+          <path d={svgPaths.p3be72e00} fill="white" id="Vector_36" />
+          <path d={svgPaths.p3da86670} fill="white" id="Vector_37" />
+          <path d={svgPaths.p24696e00} fill="white" id="Vector_38" />
+          <path d={svgPaths.pa0fcb00} fill="white" id="Vector_39" />
+          <path d={svgPaths.p4afab00} fill="white" id="Vector_40" />
+          <path d={svgPaths.p2bdf3180} fill="white" id="Vector_41" />
+          <path d={svgPaths.p1be53100} fill="white" id="Vector_42" />
+          <path d={svgPaths.p233e4c00} fill="white" id="Vector_43" />
+          <path d={svgPaths.p91e1000} fill="white" id="Vector_44" />
+          <path d={svgPaths.p1aa38500} fill="white" id="Vector_45" />
+          <path d={svgPaths.p39432100} fill="white" id="Vector_46" />
+          <path d={svgPaths.p125c0400} fill="white" id="Vector_47" />
+          <path d={svgPaths.p368e4e90} fill="white" id="Vector_48" />
+          <path d={svgPaths.p22372880} fill="white" id="Vector_49" />
+          <path d={svgPaths.p30c4d200} fill="white" id="Vector_50" />
+          <path d={svgPaths.p30486a00} fill="white" id="Vector_51" />
+          <path d={svgPaths.p2f7ce600} fill="white" id="Vector_52" />
+          <path d={svgPaths.p3787db00} fill="white" id="Vector_53" />
+          <path d={svgPaths.p2cc78bf0} fill="white" id="Vector_54" />
+          <path d={svgPaths.p1dc16600} fill="white" id="Vector_55" />
+          <path d={svgPaths.p22d09100} fill="white" id="Vector_56" />
+          <path d={svgPaths.p3c976300} fill="white" id="Vector_57" />
+          <path d={svgPaths.p3d6bff00} fill="white" id="Vector_58" />
+          <path d={svgPaths.p1a4f8e00} fill="white" id="Vector_59" />
+          <path d={svgPaths.p30472320} fill="white" id="Vector_60" />
+          <path d={svgPaths.p1a1cf80} fill="white" id="Vector_61" />
+          <path d={svgPaths.p1b51d800} fill="white" id="Vector_62" />
+          <path d={svgPaths.p3e08e700} fill="white" id="Vector_63" />
+          <path d={svgPaths.p1ba39d00} fill="white" id="Vector_64" />
+          <path d={svgPaths.p3ad97800} fill="white" id="Vector_65" />
+          <path d={svgPaths.p2dfee000} fill="white" id="Vector_66" />
+          <path d={svgPaths.p1b355600} fill="white" id="Vector_67" />
+          <path d={svgPaths.p1b9fbd00} fill="white" id="Vector_68" />
+          <path d={svgPaths.p39b7c080} fill="white" id="Vector_69" />
+          <path d={svgPaths.p318d0c80} fill="white" id="Vector_70" />
+          <path d={svgPaths.p310faf80} fill="white" id="Vector_71" />
+          <path d={svgPaths.pcc5ee00} fill="white" id="Vector_72" />
+          <path d={svgPaths.p1b6e5a00} fill="white" id="Vector_73" />
+          <path d={svgPaths.p83a23f2} fill="white" id="Vector_74" />
+          <path d={svgPaths.p27904170} fill="white" id="Vector_75" />
+          <path d={svgPaths.p3f090a80} fill="white" id="Vector_76" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Group9() {
+  return (
+    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
+      <Group7 />
+      <Group8 />
+      <Group11 />
+      <Group12 />
+      <Group13 />
+    </div>
+  );
+}
+
+function Frame34() {
+  return (
+    <div className="absolute content-stretch flex items-center left-[1481px] opacity-78 top-[68.74px]">
+      <Group9 />
+    </div>
+  );
+}
+
+function Header1() {
+  return (
+    <div className="-translate-x-1/2 absolute contents left-[calc(50%+0.5px)] top-[68.74px]" data-name="header">
+      <Logo />
+      <Menu />
+      <Frame32 />
+      <Frame2 />
+      <Frame34 />
+    </div>
+  );
+}
+
+function Frame28() {
+  return (
+    <div className="absolute left-[1241px] size-[71px] top-[515.75px]">
+      <svg className="absolute block inset-0 size-full" fill="none" height="71" preserveAspectRatio="none" viewBox="0 0 71 71" width="71">
+        <g clipPath="url(#clip0_0_199)" id="Frame 1000003449">
+          <circle cx="35.5078" cy="35.5" fill="#E5FB79" id="Ellipse 286" r="14.5" />
+          <circle cx="35.499" cy="35.5" id="Ellipse 287" r="35" stroke="white" strokeOpacity="0.6" />
+        </g>
+        <defs>
+          <clipPath id="clip0_0_199">
+            <rect fill="white" height="71" width="71" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+  );
+}
+
+function Frame30() {
+  return (
+    <div className="h-[19px] overflow-clip relative shrink-0 w-[144px]">
+      <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] leading-[18.561px] left-[107.21px] not-italic text-[#dad7d2] text-[15.606px] top-[0.09px] whitespace-nowrap" dir="auto">
+        (120)
+      </p>
+      <div className="absolute left-[0.06px] size-[15.698px] top-[0.09px]">
+        <div className="absolute inset-[0_2.45%_9.55%_2.45%]">
+          <svg className="block size-full" fill="none" height="14.199" preserveAspectRatio="none" viewBox="0 0 14.9297 14.199" width="14.9297">
+            <path d={svgPaths.p13242980} fill="#DAD7D2" id="Star 6" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute left-[21.34px] size-[15.698px] top-[0.09px]">
+        <div className="absolute inset-[0_2.45%_9.55%_2.45%]">
+          <svg className="block size-full" fill="none" height="14.199" preserveAspectRatio="none" viewBox="0 0 14.9297 14.199" width="14.9297">
+            <path d={svgPaths.p13242980} fill="#DAD7D2" id="Star 6" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute left-[42.55px] size-[15.698px] top-[0.09px]">
+        <div className="absolute inset-[0_2.45%_9.55%_2.45%]">
+          <svg className="block size-full" fill="none" height="14.199" preserveAspectRatio="none" viewBox="0 0 14.9297 14.199" width="14.9297">
+            <path d={svgPaths.p13242980} fill="#DAD7D2" id="Star 6" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute h-[15.698px] left-[64.77px] top-[0.09px] w-[14.775px]">
+        <div className="absolute inset-[0_2.45%_9.55%_2.45%]">
+          <svg className="block size-full" fill="none" height="14.199" preserveAspectRatio="none" viewBox="0 0 14.0515 14.199" width="14.0515">
+            <path d={svgPaths.p2768c2f0} fill="#DAD7D2" id="Star 9" />
+          </svg>
+        </div>
+      </div>
+      <div className="absolute left-[82.28px] size-[15.698px] top-[0.09px]">
+        <div className="absolute inset-[0_2.45%_9.55%_2.45%]">
+          <svg className="block size-full" fill="none" height="14.199" preserveAspectRatio="none" viewBox="0 0 14.9297 14.199" width="14.9297">
+            <path d={svgPaths.p13242980} fill="#8A8A8A" id="Star 10" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame5() {
+  return (
+    <div className="absolute content-stretch flex flex-col gap-[50px] h-[101px] items-start left-0 top-[26.01px] w-[218px]">
+      <Frame30 />
+      <div className="[word-break:break-word] font-['Helvetica:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[#dad7d2] text-[0px] whitespace-nowrap">
+        <p className="font-['Questrial:Regular',sans-serif] leading-[18.561px] mb-0 text-[12px]" dir="auto">
+          $350.00
+        </p>
+        <p className="font-['Questrial:Regular',sans-serif] leading-[18.561px] text-[12px] uppercase" dir="auto">
+          Multi-Ceramide Blend
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Frame29() {
+  return (
+    <div className="absolute h-[127px] left-[977px] overflow-clip top-[482.75px] w-[218px]">
+      <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Gowun_Batang:Regular',sans-serif] h-[16px] justify-center leading-[0] left-0 not-italic right-[23.39%] text-[#dad7d2] text-[22.008px] top-[calc(50%-55.5px)]">
+        <p className="leading-[34.012px]">Røket-9</p>
+      </div>
+      <Frame5 />
+    </div>
+  );
+}
+
+function Group14() {
+  return (
+    <div className="absolute contents left-[952px] top-[458.75px]">
+      <div className="absolute h-[175px] left-[952px] top-[458.75px] w-[276.1px]" data-name="Union">
+        <svg className="absolute block inset-0 size-full" fill="none" height="175" preserveAspectRatio="none" viewBox="0 0 276.1 175" width="276.1">
+          <path d={svgPaths.p3601100} fill="#A6A6A6" fillOpacity="0.2" id="Union" />
+        </svg>
+      </div>
+      <Frame28 />
+      <Frame29 />
+    </div>
+  );
+}
+
+function Frame11() {
+  return (
+    <div className="absolute h-[1080px] left-0 overflow-clip top-0 w-[1920px]">
+      <Frame3 />
+      <Frame13 />
+      <Header />
+      <Header1 />
+      <Group14 />
+    </div>
+  );
+}
+
+export default function HeroSection() {
+  return (
+    <div className="relative size-full" data-name="Hero - Section 1">
+      <Frame10 />
+      <div className="absolute h-[1503.159px] left-[-84.05px] top-[-114.91px] w-[2693.16px]" data-name="untitled_Gemini 3 (Nano Banana Pro)_2026-09-03_13-32-39 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgUntitledGemini3NanoBananaPro202609031332391} />
+      </div>
+      <div className="absolute h-[1083px] left-0 top-[32px] w-[1920px]" data-name="untitled_Topaz Image Upscale_2026-09-06_13-52-10 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgUntitledTopazImageUpscale202609061352101} />
+      </div>
+      <Frame11 />
+    </div>
+  );
+}

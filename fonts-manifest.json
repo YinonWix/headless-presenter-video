@@ -1,0 +1,12 @@
+{
+  "fonts": [
+    { "family": "Questrial", "style": "Regular", "fontId": "Questrial-Regular_2", "source": "GOOGLE" },
+    { "family": "Gowun Batang", "style": "Regular", "fontId": "GowunBatang-Regular_1", "source": "GOOGLE" },
+    { "family": "Manrope", "style": "Regular", "fontId": "Manrope_wght__1", "source": "GOOGLE" },
+    { "family": "Poppins", "style": "Italic", "fontId": "Poppins-Italic_4", "source": "GOOGLE" },
+    { "family": "Helvetica", "style": "Regular", "fontId": "/System/Library/Fonts/Helvetica.ttc", "source": "LOCAL" },
+    { "family": "Helvetica Neue", "style": "Regular", "fontId": "/System/Library/Fonts/HelveticaNeue.ttc", "source": "LOCAL" },
+    { "family": "Helvetica Neue W01 55 Roman", "style": "Regular", "fontId": "85347", "source": "SERVER" },
+    { "family": "Helvetica Neue W01 65 Medium", "style": "Regular", "fontId": "85343", "source": "SERVER" }
+  ]
+}

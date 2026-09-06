@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: "Questrial:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/Questrial-Regular_2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gowun Batang:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/GowunBatang-Regular_1") format("woff2");
+}
+
+@font-face {
+  font-family: "Manrope:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/Manrope_wght__1") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins:Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://static.figma.com/font/Poppins-Italic_4") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica Neue W01 55 Roman:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Helvetica_Neue_W01_55_Roman-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica Neue W01 65 Medium:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Helvetica_Neue_W01_65_Medium-Regular.woff2") format("woff2");
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}

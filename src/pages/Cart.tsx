@@ -70,18 +70,18 @@ export default function Cart() {
         </button>
       </div>
 
-      {/* Line-item total (covers the static $1350.00) */}
+      {/* Line-item total (replaces the emptied placeholder in CheckoutPage-1) */}
       <p
         className="absolute -translate-x-1/2 font-['Gowun_Batang:Regular',sans-serif] text-[22.008px] uppercase whitespace-nowrap text-center"
-        style={{ left: 1339.5, top: 348, color: "#000", background: "#fff", paddingInline: 6 }}
+        style={{ left: 1339.5, top: 348, color: "#000" }}
       >
         {money(quantity * PRODUCT.price)}
       </p>
 
-      {/* Subtotal value (covers the static $1350.00) */}
+      {/* Subtotal value (replaces the emptied placeholder in CheckoutPage-1) */}
       <p
         className="absolute font-['Questrial:Regular',sans-serif] text-[31px] whitespace-nowrap"
-        style={{ left: 1698, top: 416, color: "#000", background: "#f6f6f6", paddingInline: 4 }}
+        style={{ left: 1698, top: 416, color: "#000" }}
       >
         {money(subtotal)}
       </p>

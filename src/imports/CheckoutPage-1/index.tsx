@@ -1282,7 +1282,10 @@ function Group32() {
         ........................................................
       </p>
       <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] leading-[normal] left-[1482px] not-italic text-[31px] text-black top-[342px] whitespace-nowrap">SUMMARY</p>
-      <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] leading-[normal] left-[1698px] not-italic text-[31px] text-black top-[416px] whitespace-nowrap">$1350.00</p>
+      {/* Emptied on purpose: the live subtotal is rendered by Cart.tsx at these
+          exact coordinates. Leaving the placeholder here made its wider glyphs
+          poke out from behind the live value. Re-empty this after a re-export. */}
+      <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] leading-[normal] left-[1698px] not-italic text-[31px] text-black top-[416px] whitespace-nowrap"></p>
       <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] leading-[34.012px] left-[1482px] not-italic text-[22.008px] text-black top-[417px] whitespace-nowrap">Subtotal</p>
       <Group20 />
     </div>
@@ -1385,7 +1388,7 @@ function Group34() {
       </div>
       <Group33 />
       <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[34.012px] left-[585.5px] not-italic text-[#010400] text-[22.008px] text-center top-[351px] uppercase whitespace-nowrap">Røket-9</p>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[34.012px] left-[1339.5px] not-italic text-[22.008px] text-black text-center top-[348px] uppercase whitespace-nowrap">$1350.00</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[34.012px] left-[1339.5px] not-italic text-[22.008px] text-black text-center top-[348px] uppercase whitespace-nowrap"></p>
       <Group18 />
     </div>
   );

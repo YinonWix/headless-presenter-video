@@ -734,8 +734,8 @@ function Group18() {
 
 function Group21() {
   return (
-    <div className="absolute contents left-[calc(8.33%+99.24px)] top-[56px]">
-      <p className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[0] left-[calc(8.33%+99.24px)] not-italic text-[26px] text-black top-[56px] whitespace-pre">
+    <div className="absolute contents left-[259.24px] top-[56px]">
+      <p className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[0] left-[259.24px] not-italic text-[26px] text-black top-[56px] whitespace-pre">
         <span className="leading-[normal]">{`SOLE `}</span>
         <span className="leading-[normal] tracking-[0.96px]">{` `}</span>
         <span className="leading-[normal]">DROP</span>
@@ -749,6 +749,16 @@ export default function ProductPage() {
   return (
     <div className="bg-[#f5f3ec] relative size-full" data-name="Product Page">
       <Rest />
+      {/* Moved up from the end of this list on purpose. The frame already draws
+          the SOLE (+) DROP logo -- <Group9 /> is the twin spiral mark, <Group21 />
+          the wordmark -- at the same coordinates the checkout page uses, but the
+          export emitted this 914px-wide hero photo *after* them, so it painted
+          over the logo and the product page appeared to have no header mark.
+          Nothing else at this level sits left of x=914, so re-ordering only
+          affects the logo. Re-apply after a re-export. */}
+      <div className="absolute h-[1638px] left-0 shadow-[5px_0px_73.8px_0px_rgba(0,0,0,0.17)] top-[-273px] w-[914px]" data-name="untitled_Topaz Image Upscale_2026-09-06_12-46-38 1">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgUntitledTopazImageUpscale202609061246381} />
+      </div>
       <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] leading-[34.012px] left-[calc(50%+1.51px)] not-italic text-[#a7a8a8] text-[18.006px] top-[527.59px] w-[366.13px]" dir="auto">
         Color: Muddy Purple
       </p>
@@ -766,9 +776,6 @@ export default function ProductPage() {
       </p>
       <Group9 />
       <Group21 />
-      <div className="absolute h-[1638px] left-0 shadow-[5px_0px_73.8px_0px_rgba(0,0,0,0.17)] top-[-273px] w-[914px]" data-name="untitled_Topaz Image Upscale_2026-09-06_12-46-38 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgUntitledTopazImageUpscale202609061246381} />
-      </div>
     </div>
   );
 }

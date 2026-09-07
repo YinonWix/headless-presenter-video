@@ -6,10 +6,13 @@ import { PRODUCT, useCart } from "@/store/CartContext";
 const LIME = "#e5fb79";
 const BLUE = "#116dff";
 
-// Exact geometry lifted from the Figma export (1920-wide frame).
-const SIZE_TOP = 446.47;
+// Exact geometry lifted from the Figma export (1920-wide frame). The overlays
+// must sit *exactly* on top of the controls the frame already draws underneath,
+// otherwise the frame's border/fill peeks out (double border, lime showing
+// through the blue hover). These tops are measured against the rendered frame.
+const SIZE_TOP = 453.59;
 const SIZE_BOX = 54;
-const SIZE_LEFTS = [959.5, 1021.5, 1083.5, 1145.5]; // 8, 9, 10, 11
+const SIZE_LEFTS = [959.5, 1021.5, 1083.51, 1145.43]; // 8, 9, 10, 11
 
 /**
  * Product page (Røket-9). The Figma frame renders underneath for pixel fidelity;
@@ -22,6 +25,7 @@ export default function Product() {
   const navigate = useNavigate();
   const { size, setSize, quantity, incQuantity, decQuantity } = useCart();
   const [cartHover, setCartHover] = useState(false);
+  const [hoveredSize, setHoveredSize] = useState<number | null>(null);
 
   const qtyChanged = quantity !== 1;
 
@@ -36,10 +40,18 @@ export default function Product() {
       {/* Size selector */}
       {PRODUCT.sizes.map((s, i) => {
         const selected = size === s;
+        const hovered = hoveredSize === s;
+        // States: hover → blue, else selected → black, else default (light grey).
+        // Hover takes precedence over selection.
+        const bg = hovered ? BLUE : selected ? "#000" : "#f6f6f6";
+        const border = hovered ? BLUE : selected ? "#000" : "#aeaeae";
+        const color = hovered || selected ? "#fff" : "#000";
         return (
           <button
             key={s}
             onClick={() => setSize(s)}
+            onMouseEnter={() => setHoveredSize(s)}
+            onMouseLeave={() => setHoveredSize(null)}
             className="absolute flex items-center justify-center font-['Questrial:Regular',sans-serif] text-[20px] tracking-[-1px] uppercase cursor-pointer transition-colors"
             style={{
               left: SIZE_LEFTS[i],
@@ -47,9 +59,9 @@ export default function Product() {
               width: SIZE_BOX,
               height: SIZE_BOX,
               borderRadius: 12,
-              border: `0.5px solid ${selected ? BLUE : "#aeaeae"}`,
-              background: selected ? BLUE : "#f6f6f6",
-              color: selected ? "#fff" : "#000",
+              border: `0.5px solid ${border}`,
+              background: bg,
+              color,
             }}
           >
             {s}
@@ -62,7 +74,7 @@ export default function Product() {
         className="absolute flex items-center justify-between"
         style={{
           left: 960,
-          top: 323.88,
+          top: 330.99,
           width: 115.525,
           height: 53.995,
           borderRadius: 12,
@@ -102,7 +114,7 @@ export default function Product() {
         className="absolute cursor-pointer transition-colors"
         style={{
           left: 959.37,
-          top: 834.16,
+          top: 841.27,
           width: 835.803,
           height: 83.956,
           borderRadius: 12.531,

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ProductPage from "@/imports/ProductPage-1";
+import QuantityStepper from "@/components/QuantityStepper";
 import { PRODUCT, useCart } from "@/store/CartContext";
 
 const LIME = "#e5fb79";
@@ -26,8 +27,6 @@ export default function Product() {
   const { size, setSize, quantity, incQuantity, decQuantity } = useCart();
   const [cartHover, setCartHover] = useState(false);
   const [hoveredSize, setHoveredSize] = useState<number | null>(null);
-
-  const qtyChanged = quantity !== 1;
 
   function addToCart() {
     navigate("/cart");
@@ -69,42 +68,29 @@ export default function Product() {
         );
       })}
 
-      {/* Quantity stepper */}
-      <div
-        className="absolute flex items-center justify-between"
-        style={{
-          left: 960,
-          top: 330.99,
-          width: 115.525,
-          height: 53.995,
-          borderRadius: 12,
-          border: `0.5px solid ${qtyChanged ? BLUE : "#aeaeae"}`,
-          background: "#f6f6f6",
-        }}
-      >
-        <button
-          onClick={decQuantity}
-          className="h-full w-[38px] flex items-center justify-center text-[22px] leading-none cursor-pointer"
-          style={{ color: "#010400" }}
-          aria-label="Decrease quantity"
-        >
-          −
-        </button>
-        <span
-          className="font-['Questrial:Regular',sans-serif] text-[20px] tracking-[-1px] uppercase select-none"
-          style={{ color: qtyChanged ? BLUE : "#000" }}
-        >
-          {quantity}
-        </span>
-        <button
-          onClick={incQuantity}
-          className="h-full w-[38px] flex items-center justify-center text-[22px] leading-none cursor-pointer"
-          style={{ color: "#010400" }}
-          aria-label="Increase quantity"
-        >
-          +
-        </button>
-      </div>
+      {/* Quantity stepper. Geometry is read straight out of ProductPage-1:
+          the container is drawn at top 323.88 inside the `Rest` wrapper, which
+          itself sits 7.12px down the frame (bottom -11.12 on a 1092-tall box in
+          an 1088-tall frame) — hence 331. The cell widths come from where that
+          frame draws its two dividers, at +41.44 and +75.34. */}
+      <QuantityStepper
+        quantity={quantity}
+        onDec={decQuantity}
+        onInc={incQuantity}
+        left={960}
+        top={331}
+        width={115.525}
+        height={53.995}
+        radius={12}
+        borderWidth={0.5}
+        cells={[41.44, 33.9, 40.185]}
+        dividerWidth={0.502281}
+        dividerInsetTop={2.51}
+        dividerInsetBottom={2.51}
+        glyph={10.423}
+        glyphStroke={1.489}
+        fontSize={20}
+      />
 
       {/* Add to cart */}
       <button

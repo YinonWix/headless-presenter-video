@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CheckoutPage from "@/imports/CheckoutPage-1";
+import QuantityStepper from "@/components/QuantityStepper";
 import { PRODUCT, useCart } from "@/store/CartContext";
 
 const LIME = "#e5fb79";
@@ -33,42 +34,27 @@ export default function Cart() {
         Size: {size}
       </p>
 
-      {/* Line-item quantity stepper */}
-      <div
-        className="absolute flex items-center justify-between"
-        style={{
-          left: 532,
-          top: 735,
-          width: 153,
-          height: 62,
-          borderRadius: 12,
-          border: `0.9px solid ${quantity !== 1 ? BLUE : "#aeaeae"}`,
-          background: "#f6f6f6",
-        }}
-      >
-        <button
-          onClick={decQuantity}
-          className="h-full w-[50px] flex items-center justify-center text-[24px] leading-none cursor-pointer"
-          style={{ color: "#010400" }}
-          aria-label="Decrease quantity"
-        >
-          −
-        </button>
-        <span
-          className="font-['Questrial:Regular',sans-serif] text-[21px] tracking-[-1px] uppercase select-none"
-          style={{ color: quantity !== 1 ? BLUE : "#000" }}
-        >
-          {quantity}
-        </span>
-        <button
-          onClick={incQuantity}
-          className="h-full w-[50px] flex items-center justify-center text-[24px] leading-none cursor-pointer"
-          style={{ color: "#010400" }}
-          aria-label="Increase quantity"
-        >
-          +
-        </button>
-      </div>
+      {/* Line-item quantity stepper. Same component as the Product page, at the
+          larger size CheckoutPage-1 draws: container 153×62 at 532,735 with a
+          0.9px stroke, dividers at +54 and +101. */}
+      <QuantityStepper
+        quantity={quantity}
+        onDec={decQuantity}
+        onInc={incQuantity}
+        left={532}
+        top={735}
+        width={153}
+        height={62}
+        radius={12}
+        borderWidth={0.9}
+        cells={[54, 47, 52]}
+        dividerWidth={0.9}
+        dividerInsetTop={4}
+        dividerInsetBottom={3}
+        glyph={14}
+        glyphStroke={2}
+        fontSize={21}
+      />
 
       {/* Line-item total (replaces the emptied placeholder in CheckoutPage-1) */}
       <p

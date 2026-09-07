@@ -8,6 +8,24 @@ import { PRODUCT, useCart } from "@/store/CartContext";
 const LIME = "#e5fb79";
 const BLUE = "#116dff";
 
+/* Right edge of the last dot's *ink* in the summary card's dotted rule, in the
+   frame's own 1920-wide coordinates. The frame's "Subtotal" label is placed at
+   1482 against a rule whose ink starts at 1481.88, i.e. it's flush with the
+   first dot rather than with the text box -- so the mirror-image anchor for the
+   value on the right is the last dot's ink, not the rule's box (1822.289).
+
+   The rule is 56 periods in `Helvetica Neue:Regular`, which has no @font-face
+   and so resolves through the stack's `sans-serif` fallback. That is safe to
+   measure against: Helvetica, Arial and Liberation Sans all give the period an
+   advance of 278/1000 em, the same as real Helvetica Neue, so the rule ends at
+   the same x on macOS, Windows and Figma alike. */
+const RULE_INK_RIGHT = 1820.302;
+
+/* The value's own right side bearing, subtracted so *its* ink -- not its text
+   box -- lands on the anchor. Constant across quantities: the string always
+   ends in "0", since the price is a whole number of dollars. */
+const PRICE_RIGHT_BEARING = 1.333;
+
 /**
  * Cart page. The Figma checkout frame renders underneath; live overlays sit at
  * the frame's coordinates. Quantity + size are read from the cart context (set on
@@ -68,10 +86,19 @@ export default function Cart() {
         {money(quantity * PRODUCT.price)}
       </p>
 
-      {/* Subtotal value (replaces the emptied placeholder in CheckoutPage-1) */}
+      {/* Subtotal value (replaces the emptied placeholder in CheckoutPage-1).
+          Right-aligned to the dotted rule below it, mirroring how the frame's
+          "Subtotal" label sits flush with the rule's left end. translateX pulls
+          the box left by its own width, so `left` acts as its right edge --
+          which keeps the value anchored as the quantity changes its width. */}
       <p
         className="absolute font-['Questrial:Regular',sans-serif] text-[31px] whitespace-nowrap"
-        style={{ left: 1698, top: 416, color: "#000" }}
+        style={{
+          left: RULE_INK_RIGHT + PRICE_RIGHT_BEARING,
+          top: 416,
+          transform: "translateX(-100%)",
+          color: "#000",
+        }}
       >
         {money(subtotal)}
       </p>

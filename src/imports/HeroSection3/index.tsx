@@ -298,21 +298,42 @@ function Frame6() {
 //
 // There is deliberately no drop shadow: the composite is pixel-identical to the raw
 // backdrop everywhere outside the card, so Figma casts nothing at all here.
+const GLASS_RIM = "rgba(200,190,175,0.39)";
+
+// Depth 33 -- the inner bevel: shaded top-left, lit bottom-right. Each alpha was
+// least-squares fitted per edge against the Figma render. Dispersion shows up as
+// the tint of each edge rather than as a separate fringe, so it is folded into
+// these four colours; adding explicit fringe layers double-counted it.
+const GLASS_BEVEL = [
+  "inset 0 12px 26px rgba(30,25,20,0.14)",
+  "inset 12px 0 26px rgba(0,0,0,0.10)",
+  "inset 0 -12px 26px rgba(255,240,220,0.041)",
+  "inset -12px 0 26px rgba(255,255,255,0.029)",
+].join(", ");
+
 const HERO_GLASS: React.CSSProperties = {
   backdropFilter: "blur(6.5px)",
   WebkitBackdropFilter: "blur(6.5px)",
   background: "rgba(166,166,166,0.2)",
-  border: "1px solid rgba(200,190,175,0.39)",
-  boxShadow: [
-    // Depth 33 -- the inner bevel: shaded top-left, lit bottom-right. Each alpha
-    // was least-squares fitted per edge against the Figma render. Dispersion shows
-    // up as the tint of each edge rather than as a separate fringe, so it is folded
-    // into these four colours; adding explicit fringe layers double-counted it.
-    "inset 0 12px 26px rgba(30,25,20,0.14)",
-    "inset 12px 0 26px rgba(0,0,0,0.10)",
-    "inset 0 -12px 26px rgba(255,240,220,0.041)",
-    "inset -12px 0 26px rgba(255,255,255,0.029)",
-  ].join(", "),
+  border: `1px solid ${GLASS_RIM}`,
+  boxShadow: GLASS_BEVEL,
+};
+
+// The product card over the shoe (Group14) is the same Figma Glass with the same
+// params, so it gets the same numbers -- but Make flattened it into an <svg> path
+// filled #A6A6A6 at 0.2 instead of a <div>, because its outline is not a plain
+// rounded rect: it bulges from x=268 out to 276.08 between y=73.7 and y=109, a
+// notch for the circular swatch button that sits there. So the fill and the blur go
+// on a div clipped to that very path, and the rim is stroked along the path rather
+// than set as a CSS border, which would have traced the div's rectangle instead.
+// The clip also keeps the rim's outer half from spilling past the glass, which is
+// what makes a 2px stroke read as the same 1px inside rim the hero card gets.
+const CARD_GLASS: React.CSSProperties = {
+  backdropFilter: "blur(6.5px)",
+  WebkitBackdropFilter: "blur(6.5px)",
+  background: "rgba(166,166,166,0.2)",
+  boxShadow: GLASS_BEVEL,
+  clipPath: `path("${svgPaths.p3601100}")`,
 };
 
 function Frame13() {
@@ -1161,9 +1182,9 @@ function Frame29() {
 function Group14() {
   return (
     <div className="absolute contents left-[952px] top-[458.75px]">
-      <div className="absolute h-[175px] left-[952px] top-[458.75px] w-[276.1px]" data-name="Union">
+      <div className="absolute h-[175px] left-[952px] top-[458.75px] w-[276.1px]" data-name="Union" style={CARD_GLASS}>
         <svg className="absolute block inset-0 size-full" fill="none" height="175" preserveAspectRatio="none" viewBox="0 0 276.1 175" width="276.1">
-          <path d={svgPaths.p3601100} fill="#A6A6A6" fillOpacity="0.2" id="Union" />
+          <path d={svgPaths.p3601100} id="Union" stroke={GLASS_RIM} strokeWidth="2" />
         </svg>
       </div>
       <Frame28 />

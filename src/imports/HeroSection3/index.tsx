@@ -272,10 +272,36 @@ function Frame6() {
   );
 }
 
+// Figma's Glass effect (Refraction 80, Depth 33, Dispersion 68, Frost 13,
+// Light -45deg @ 80%) has no CSS equivalent, so Figma Make exported this card as
+// a bare 20%-grey rectangle: no backdrop blur, no rim, no specular. The result
+// read as a flat dark panel with the background showing through razor sharp.
+// This is the closest honest CSS approximation, calibrated against the Figma
+// render. Refraction + Frost become the backdrop blur; Depth becomes the 1px
+// thickness ring; Light becomes the top-left specular; Dispersion becomes the
+// cool/warm fringe pair on opposing edges.
+const HERO_GLASS: React.CSSProperties = {
+  backdropFilter: "blur(15px) saturate(112%) brightness(118%)",
+  WebkitBackdropFilter: "blur(15px) saturate(112%) brightness(118%)",
+  background:
+    "linear-gradient(135deg, rgba(255,255,255,0.26) 0%, rgba(222,222,222,0.19) 45%, rgba(255,255,255,0.13) 100%)",
+  border: "1px solid rgba(255,255,255,0.30)",
+  boxShadow: [
+    "inset 2px 2px 3px -1px rgba(255,255,255,0.55)",
+    "inset -1.5px -1.5px 2px -0.5px rgba(255,255,255,0.20)",
+    "inset 0 0 0 1px rgba(255,255,255,0.14)",
+    "inset 3px 3px 6px -4px rgba(150,220,255,0.30)",
+    "inset -3px -3px 6px -4px rgba(255,190,150,0.26)",
+    "0 22px 60px rgba(0,0,0,0.30)",
+  ].join(", "),
+};
+
 function Frame13() {
   return (
-    <div className="absolute h-[853px] left-[35px] overflow-clip top-[160.75px] w-[667px]">
-      <div className="absolute bg-[rgba(166,166,166,0.2)] h-[853px] left-0 rounded-[20px] top-0 w-[667px]" />
+    // rounded-[20px] on the clipping parent too, so the card's contents follow
+    // the glass corners instead of being cut off square.
+    <div className="absolute h-[853px] left-[35px] overflow-clip rounded-[20px] top-[160.75px] w-[667px]">
+      <div className="absolute h-[853px] left-0 rounded-[20px] top-0 w-[667px]" style={HERO_GLASS} />
       <Frame6 />
     </div>
   );

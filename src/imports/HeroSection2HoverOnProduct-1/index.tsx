@@ -3,10 +3,10 @@ import imgImage989435 from "./173182d746ce64dc8142b2106cf08e477ada6bcd.avif";
 import imgPantone39522 from "./d72b4352ee83144db06ca8111a602806ca72dd8e.avif";
 import imgUntitledGemini3NanoBananaPro202609031221241 from "./56bbd5d61950df8292c0ed4a1bc4400507a74bc6.avif";
 import imgUntitledGemini3NanoBananaPro202609051332021 from "./289f264fbe94d6d01281c936475a71ce9c67416c.avif";
-import imgUntitledTopazImageUpscale202609061256531 from "./0ec4d6f9d6cdaf3643584844ba9f7f995e4aa0c6.avif";
+import imgDermo from "./dermo.avif";
 // Cellu (left) product image — pinned to the base-frame artwork so Cellu stays
 // static on hover. Only Røket-9 should react to hover; see Home.tsx.
-import imgCelluStatic from "./69796607df4daa042cdb93bdea396aeaaa73717c.avif";
+import imgCelluStatic from "./cellu.avif";
 
 function Frame11() {
   return (
@@ -199,9 +199,9 @@ function Frame15() {
 function Frame13() {
   return (
     <div className="absolute bg-white h-[651.981px] left-0 overflow-clip rounded-[19.969px] top-[61.9px] w-[573.105px]">
-      <div className="absolute h-[652px] left-[-0.27px] rounded-[20px] top-[-0.4px] w-[574px]" data-name="untitled_Topaz Image Upscale_2026-09-06_12-56-53 1">
+      <div className="absolute h-[652px] left-[-0.27px] rounded-[20px] top-[-0.4px] w-[574px]" data-name="Dermo">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[20px]">
-          <img alt="" className="absolute h-[157.74%] left-0 max-w-none top-[-31.48%] w-full" src={imgUntitledTopazImageUpscale202609061256531} />
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDermo} />
         </div>
       </div>
       <div className="absolute bg-[#e5fb79] h-[44.001px] left-[517.56px] rounded-br-[19.967px] top-[608.46px] w-[55.893px]" />
@@ -279,9 +279,9 @@ function Frame7() {
       <Frame8 />
       <Frame9 />
       <Frame10 />
-      <div className="absolute h-[652.876px] left-[0.05px] rounded-[19.967px] top-[-0.41px] w-[573.199px]" data-name="untitled_Gemini 3 (Nano Banana Pro)_2026-09-06_09-06-07 1">
+      <div className="absolute h-[652.876px] left-[0.05px] rounded-[19.967px] top-[-0.41px] w-[573.199px]" data-name="Cellu">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[19.967px]">
-          <img alt="" className="absolute h-[236.79%] left-[-25.36%] max-w-none top-[-68.49%] w-[150.54%]" src={imgCelluStatic} />
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCelluStatic} />
         </div>
       </div>
       <div className="absolute bg-[#e5fb79] h-[44.001px] left-[517.35px] rounded-br-[19.967px] top-[608.46px] w-[55.893px]" />

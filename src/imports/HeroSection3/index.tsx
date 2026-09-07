@@ -272,27 +272,46 @@ function Frame6() {
   );
 }
 
-// Figma's Glass effect (Refraction 80, Depth 33, Dispersion 68, Frost 13,
-// Light -45deg @ 80%) has no CSS equivalent, so Figma Make exported this card as
-// a bare 20%-grey rectangle: no backdrop blur, no rim, no specular. The result
-// read as a flat dark panel with the background showing through razor sharp.
-// This is the closest honest CSS approximation, calibrated against the Figma
-// render. Refraction + Frost become the backdrop blur; Depth becomes the 1px
-// thickness ring; Light becomes the top-left specular; Dispersion becomes the
-// cool/warm fringe pair on opposing edges.
+// Figma's Glass effect has no CSS equivalent, so Figma Make exported this card as
+// a bare 20%-grey rectangle: no backdrop blur, no rim, no bevel. Every number below
+// was measured off the real Figma render of node 180:394304 rather than eyeballed --
+// the source frame's backdrop image was exported separately, so the composite could
+// be solved against the exact unblurred pixels underneath it.
+//
+// Figma Glass params:  Frost/radius 13, Refraction 0.8, Depth 33,
+//                      Light -45deg @ 0.8, Dispersion 0.68, Splay 0.22
+//
+// Frost -> blur. Figma Make's own converter divides Figma blur radius by 2 (it
+// exported radius 4.1 -> backdrop-blur-[2.05px], 30 -> [15px], 17 -> [8.5px]
+// elsewhere in this same file), so radius 13 -> 6.5px. Fitting the blur against
+// the exported backdrop independently bottomed out at 6.5-7px, which agrees.
+//
+// Fill -> measured as exactly 0.8*backdrop + 0.2*166 over the card's interior, i.e.
+// a flat rgba(166,166,166,0.2) and nothing else. No brightness or saturate boost.
+//
+// Depth -> a ~22px inner bevel. With the light at -45deg the inner wall facing the
+// light sits in shade and the far wall catches it, so top/left go DARKER (-8 and -3
+// of 255) and bottom/right go LIGHTER (+4.5 and +2), each fading out over ~22px.
+//
+// Dispersion -> a chromatic fringe, cool on the right and warm on the left, about
+// 1% of range in the Figma render: present but very nearly subliminal.
+//
+// There is deliberately no drop shadow: the composite is pixel-identical to the raw
+// backdrop everywhere outside the card, so Figma casts nothing at all here.
 const HERO_GLASS: React.CSSProperties = {
-  backdropFilter: "blur(15px) saturate(112%) brightness(118%)",
-  WebkitBackdropFilter: "blur(15px) saturate(112%) brightness(118%)",
-  background:
-    "linear-gradient(135deg, rgba(255,255,255,0.26) 0%, rgba(222,222,222,0.19) 45%, rgba(255,255,255,0.13) 100%)",
-  border: "1px solid rgba(255,255,255,0.30)",
+  backdropFilter: "blur(6.5px)",
+  WebkitBackdropFilter: "blur(6.5px)",
+  background: "rgba(166,166,166,0.2)",
+  border: "1px solid rgba(200,190,175,0.39)",
   boxShadow: [
-    "inset 2px 2px 3px -1px rgba(255,255,255,0.55)",
-    "inset -1.5px -1.5px 2px -0.5px rgba(255,255,255,0.20)",
-    "inset 0 0 0 1px rgba(255,255,255,0.14)",
-    "inset 3px 3px 6px -4px rgba(150,220,255,0.30)",
-    "inset -3px -3px 6px -4px rgba(255,190,150,0.26)",
-    "0 22px 60px rgba(0,0,0,0.30)",
+    // Depth 33 -- the inner bevel: shaded top-left, lit bottom-right. Each alpha
+    // was least-squares fitted per edge against the Figma render. Dispersion shows
+    // up as the tint of each edge rather than as a separate fringe, so it is folded
+    // into these four colours; adding explicit fringe layers double-counted it.
+    "inset 0 12px 26px rgba(30,25,20,0.14)",
+    "inset 12px 0 26px rgba(0,0,0,0.10)",
+    "inset 0 -12px 26px rgba(255,240,220,0.041)",
+    "inset -12px 0 26px rgba(255,255,255,0.029)",
   ].join(", "),
 };
 

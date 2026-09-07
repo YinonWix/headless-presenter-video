@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ProductPage from "@/imports/ProductPage-1";
 import QuantityStepper from "@/components/QuantityStepper";
+import LogoHomeLink from "@/components/LogoHomeLink";
 import { PRODUCT, useCart } from "@/store/CartContext";
 
 const LIME = "#e5fb79";
@@ -35,6 +36,9 @@ export default function Product() {
   return (
     <div className="relative" style={{ width: 1920, height: 1088 }}>
       <ProductPage />
+
+      {/* Header mark -> home. Hit area only; the frame draws the logo. */}
+      <LogoHomeLink />
 
       {/* Size selector */}
       {PRODUCT.sizes.map((s, i) => {

@@ -32,14 +32,17 @@
   font-family: "Helvetica Neue W01 55 Roman:Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/Helvetica_Neue_W01_55_Roman-Regular.woff2") format("woff2");
+  /* Relative, not "/fonts/…": a root-absolute URL only resolves when the site is
+     served from the domain root, which a GitHub Pages project site is not. As a
+     relative path Vite fingerprints the file and emits a base-correct URL. */
+  src: url("./fonts/Helvetica_Neue_W01_55_Roman-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Helvetica Neue W01 65 Medium:Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/Helvetica_Neue_W01_65_Medium-Regular.woff2") format("woff2");
+  src: url("./fonts/Helvetica_Neue_W01_65_Medium-Regular.woff2") format("woff2");
 }
 
 html,

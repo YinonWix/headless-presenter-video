@@ -1,31 +1,49 @@
 @import 'tailwindcss';
 
+/* All four Google faces below were fetched from the `static.figma.com` URLs the
+   Make export emitted, then subsetted with fontTools and re-encoded as woff2 so
+   they ship with the site instead of being loaded from Figma's CDN at runtime.
+   Figma actually served raw TTF there (~2.0 MB total for the four, Gowun Batang
+   alone being 8.2 MB uncompressed); these subsets total 93 KB.
+
+   Subsetted from *Figma's* files rather than Google's current releases, and the
+   per-glyph advance widths and head/hhea/OS/2 metrics are byte-identical to
+   those originals, so nothing reflows. Manrope is deliberately left as a
+   variable font: its default instance is wght 200, which is what the design was
+   drawn against even though the rule below says 400 -- pinning it to 400 would
+   make every Manrope run heavier than the Figma frames.
+
+   Retained ranges: Latin-1, Latin Extended-A, general punctuation, currency,
+   letterlike, arrows, math operators, geometric shapes.
+
+   URLs are relative for the same reason as the two W01 faces further down. */
+
 @font-face {
   font-family: "Questrial:Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("https://static.figma.com/font/Questrial-Regular_2") format("woff2");
+  src: url("./fonts/Questrial-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Gowun Batang:Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("https://static.figma.com/font/GowunBatang-Regular_1") format("woff2");
+  src: url("./fonts/GowunBatang-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Manrope:Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("https://static.figma.com/font/Manrope_wght__1") format("woff2");
+  src: url("./fonts/Manrope-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Poppins:Italic";
   font-style: italic;
   font-weight: 400;
-  src: url("https://static.figma.com/font/Poppins-Italic_4") format("woff2");
+  src: url("./fonts/Poppins-Italic.woff2") format("woff2");
 }
 
 @font-face {

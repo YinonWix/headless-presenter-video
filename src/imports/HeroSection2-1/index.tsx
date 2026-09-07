@@ -294,12 +294,12 @@ export default function HeroSection() {
   return (
     <div className="relative size-full" data-name="Hero - Section 2">
       <div className="absolute bg-white h-[1088px] left-0 top-0 w-[1918px]" />
-      <div className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[0] left-[72.14px] not-italic text-[#1c1d21] text-[51.919px] top-[100.09px] w-[577.098px]">
-        <p className="leading-[75.22499084472656%] mb-0">Next-Generation Shoes</p>
-        <p className="leading-[75.22499084472656%]">For Next Gen-Hikers</p>
+      <div className="[word-break:break-word] absolute font-['Gowun_Batang:Regular',sans-serif] leading-[0] left-[72.14px] not-italic text-[#1c1d21] text-[51.919px] top-[96.196px] w-[577.098px]">
+        <p className="leading-[90%] mb-0">Next-Generation Shoes</p>
+        <p className="leading-[90%]">For Next Gen-Hikers</p>
       </div>
       <Frame7 />
-      <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] h-[54.914px] leading-[28.258px] left-[677.22px] not-italic text-[#1c1d21] text-[22.236px] top-[152.51px] w-[504.212px]" dir="auto">
+      <p className="[word-break:break-word] absolute font-['Questrial:Regular',sans-serif] h-[54.914px] leading-[28.258px] left-[677.22px] not-italic text-[#1c1d21] text-[22.236px] top-[139.67px] w-[504.212px]" dir="auto">
         We engineer high-performance active-urban design that transforms how you walk in this world.
       </p>
       <Group />

@@ -47,3 +47,23 @@ body,
 #root {
   height: 100%;
 }
+
+/*
+ * Always reserve the vertical scrollbar gutter.
+ *
+ * The stage scales the 1920px design to the container width. Without a stable
+ * gutter that creates a feedback loop on any viewport wider than the design
+ * (e.g. an external monitor in full screen, where the scale goes above 1):
+ * the scaled content grows taller than the viewport, so the scrollbar appears,
+ * which narrows the container by ~15px, which lowers the scale, which shortens
+ * the content, which removes the scrollbar, which widens the container again...
+ * The scale then flip-flops between two values on every frame, re-rasterising
+ * the whole page and making the large product images visibly blink in and out.
+ *
+ * Reserving the gutter unconditionally keeps the container width constant
+ * whether or not the scrollbar is showing, so the scale resolves once and stays.
+ */
+html {
+  scrollbar-gutter: stable;
+  overflow-x: hidden;
+}

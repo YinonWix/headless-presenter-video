@@ -37,13 +37,31 @@ export default function Stage({ children }: { children: React.ReactNode }) {
       const width = outer.clientWidth;
       // A 0 width means the stage isn't laid out yet (hidden/background tab).
       // Fall back to scale 1 so content stays visible rather than collapsing.
-      setScale(width > 0 ? width / DESIGN_W : 1);
+      const next = width > 0 ? width / DESIGN_W : 1;
+      // Skip sub-pixel changes: a fractional container width can jitter by a
+      // fraction of a pixel between observer callbacks, and each committed
+      // change re-rasterises the whole page. Only commit a visible difference.
+      setScale((prev) => (Math.abs(next - prev) < 0.0005 ? prev : next));
     };
     measure();
 
-    const ro = new ResizeObserver(measure);
+    // Coalesce observer callbacks to at most one measurement per frame, so a
+    // burst of layout changes can never produce more than one re-raster.
+    let raf = 0;
+    const schedule = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = 0;
+        measure();
+      });
+    };
+
+    const ro = new ResizeObserver(schedule);
     ro.observe(outer); // container width changes (window resize, pane show/hide)
-    return () => ro.disconnect();
+    return () => {
+      cancelAnimationFrame(raf);
+      ro.disconnect();
+    };
   }, []);
 
   return (

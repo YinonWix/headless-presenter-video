@@ -1,15 +1,15 @@
 import svgPaths from "./svg-ozbo44zkn8";
-import imgUntitledGemini3NanoBananaPro202609031332391 from "./d3c17af8b58c8e4d109ffef4a7eb4e8d644b0204.png";
-import imgUntitledTopazImageUpscale202609061352101 from "./41f2e0a3d2024745d9838f86a965b8e3a2cb1363.png";
-import imgFrame1707481694 from "./a8c0207cf3992ab8033e992b7c05f00a9f26e378.png";
-import imgImage989433 from "./21e5e6eac458ebf600a4c55670eb534f6b000cd7.png";
-import imgImage11691 from "./bedc8dfa19a4fdf720e49874764ed414aa24d3df.png";
-import imgImage10973 from "./29d041da798c74cee7c13f0692b41e43c3fbdaec.png";
-import imgImage1631 from "./700e7090f17dddde8af068077d364cf4846de9e4.png";
-import imgImage1632 from "./fded9adc287fdd960bb04e2137c8adf470a00920.png";
-import imgImage1633 from "./9b27c6ff26b99b83fa84a002f297d2a922b1de54.png";
-import imgImage6262 from "./2a1b0d9dcd48d41cecdde341ef97d0450d483d83.png";
-import imgUntitledGemini3NanoBananaPro202609030927411 from "./a646898466a1a8a83119144a57d5989a1ffb8405.png";
+import imgUntitledGemini3NanoBananaPro202609031332391 from "./d3c17af8b58c8e4d109ffef4a7eb4e8d644b0204.avif";
+import imgUntitledTopazImageUpscale202609061352101 from "./41f2e0a3d2024745d9838f86a965b8e3a2cb1363.avif";
+import imgFrame1707481694 from "./a8c0207cf3992ab8033e992b7c05f00a9f26e378.avif";
+import imgImage989433 from "./21e5e6eac458ebf600a4c55670eb534f6b000cd7.avif";
+import imgImage11691 from "./bedc8dfa19a4fdf720e49874764ed414aa24d3df.avif";
+import imgImage10973 from "./29d041da798c74cee7c13f0692b41e43c3fbdaec.avif";
+import imgImage1631 from "./700e7090f17dddde8af068077d364cf4846de9e4.avif";
+import imgImage1632 from "./fded9adc287fdd960bb04e2137c8adf470a00920.avif";
+import imgImage1633 from "./9b27c6ff26b99b83fa84a002f297d2a922b1de54.avif";
+import imgImage6262 from "./2a1b0d9dcd48d41cecdde341ef97d0450d483d83.avif";
+import imgUntitledGemini3NanoBananaPro202609030927411 from "./a646898466a1a8a83119144a57d5989a1ffb8405.avif";
 
 function Frame10() {
   return <div className="absolute h-[1035px] left-0 top-[47px] w-[1920px]" />;

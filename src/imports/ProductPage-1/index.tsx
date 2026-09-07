@@ -1,8 +1,8 @@
 import svgPaths from "./svg-pptisgqksv";
-import imgUntitledGemini3NanoBananaPro202609051345482 from "./f5bf166cb7527ef360e2270da145c7cccdc6cdfd.png";
-import imgUntitledGemini3NanoBananaPro202609051338022 from "./98bdb446071b8727e25159d172b2fafa502ac902.png";
-import imgUntitledGemini3NanoBananaPro202609051447222 from "./c8b1a0d4e22b96c232d89a0134555f87a87a46e5.png";
-import imgUntitledTopazImageUpscale202609061246381 from "./d3c256674f39871eacf806e3f3722462080d8a10.png";
+import imgUntitledGemini3NanoBananaPro202609051345482 from "./f5bf166cb7527ef360e2270da145c7cccdc6cdfd.avif";
+import imgUntitledGemini3NanoBananaPro202609051338022 from "./98bdb446071b8727e25159d172b2fafa502ac902.avif";
+import imgUntitledGemini3NanoBananaPro202609051447222 from "./c8b1a0d4e22b96c232d89a0134555f87a87a46e5.avif";
+import imgUntitledTopazImageUpscale202609061246381 from "./d3c256674f39871eacf806e3f3722462080d8a10.avif";
 
 function Frame2() {
   return (

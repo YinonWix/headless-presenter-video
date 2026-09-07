@@ -1,12 +1,12 @@
 import svgPaths from "./svg-fzfof4yi6q";
-import imgImage989435 from "./173182d746ce64dc8142b2106cf08e477ada6bcd.png";
-import imgPantone39522 from "./d72b4352ee83144db06ca8111a602806ca72dd8e.png";
-import imgUntitledGemini3NanoBananaPro202609031221241 from "./56bbd5d61950df8292c0ed4a1bc4400507a74bc6.png";
-import imgUntitledGemini3NanoBananaPro202609051332021 from "./289f264fbe94d6d01281c936475a71ce9c67416c.png";
-import imgUntitledTopazImageUpscale202609061256531 from "./0ec4d6f9d6cdaf3643584844ba9f7f995e4aa0c6.png";
+import imgImage989435 from "./173182d746ce64dc8142b2106cf08e477ada6bcd.avif";
+import imgPantone39522 from "./d72b4352ee83144db06ca8111a602806ca72dd8e.avif";
+import imgUntitledGemini3NanoBananaPro202609031221241 from "./56bbd5d61950df8292c0ed4a1bc4400507a74bc6.avif";
+import imgUntitledGemini3NanoBananaPro202609051332021 from "./289f264fbe94d6d01281c936475a71ce9c67416c.avif";
+import imgUntitledTopazImageUpscale202609061256531 from "./0ec4d6f9d6cdaf3643584844ba9f7f995e4aa0c6.avif";
 // Cellu (left) product image — pinned to the base-frame artwork so Cellu stays
 // static on hover. Only Røket-9 should react to hover; see Home.tsx.
-import imgCelluStatic from "./69796607df4daa042cdb93bdea396aeaaa73717c.png";
+import imgCelluStatic from "./69796607df4daa042cdb93bdea396aeaaa73717c.avif";
 
 function Frame11() {
   return (

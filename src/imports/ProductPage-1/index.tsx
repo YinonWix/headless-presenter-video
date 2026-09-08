@@ -207,19 +207,15 @@ function Rest() {
 
 function Group2() {
   return (
-    <div className="absolute left-[calc(50%+55.03px)] size-[48.553px] top-[972.81px]">
-      <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
-        <g id="Group 472177336">
-          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="#3D3D3D" />
-        </g>
-      </svg>
+    <div className="absolute left-[calc(50%+54.84px)] size-[48.553px] top-[972.81px]">
+      <div className="absolute inset-0" style={{ border: "1.5px solid #3D3D3D", borderRadius: "50%", boxSizing: "border-box" }} />
     </div>
   );
 }
 
 function Group1() {
   return (
-    <div className="absolute h-[24.397px] left-[calc(50%+169.69px)] top-[984.89px] w-[24.878px]" data-name="Group">
+    <div className="absolute h-[24.397px] left-[calc(50%+171.78px)] top-[984.89px] w-[24.878px]" data-name="Group">
       <svg className="absolute block inset-0 size-full" fill="none" height="24.3969" preserveAspectRatio="none" viewBox="0 0 24.8783 24.3969" width="24.8783">
         <g id="Group">
           <path d={svgPaths.p2e157480} fill="#3D3D3D" id="Vector" stroke="#3D3D3D" strokeWidth="0.3" />
@@ -241,16 +237,12 @@ function Group() {
 
 function Group3() {
   return (
-    <div className="absolute contents left-[calc(50%+107.17px)] top-[972.81px]">
-      <div className="absolute left-[calc(50%+107.17px)] size-[48.553px] top-[972.81px]">
-        <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
-          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="#3D3D3D" />
-        </svg>
+    <div className="absolute contents left-[calc(50%+107.39px)] top-[972.81px]">
+      <div className="absolute left-[calc(50%+107.39px)] size-[48.553px] top-[972.81px]">
+        <div className="absolute inset-0" style={{ border: "1.5px solid #3D3D3D", borderRadius: "50%", boxSizing: "border-box" }} />
       </div>
-      <div className="absolute left-[calc(50%+157.86px)] size-[48.553px] top-[972.81px]">
-        <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
-          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="#3D3D3D" />
-        </svg>
+      <div className="absolute left-[calc(50%+159.95px)] size-[48.553px] top-[972.81px]">
+        <div className="absolute inset-0" style={{ border: "1.5px solid #3D3D3D", borderRadius: "50%", boxSizing: "border-box" }} />
       </div>
       <Group />
     </div>
@@ -277,11 +269,7 @@ function Group6() {
 function Group4() {
   return (
     <div className="absolute left-[calc(50%+1.52px)] size-[49.321px] top-[972.42px]">
-      <svg className="absolute block inset-0 size-full" fill="none" height="49.3206" preserveAspectRatio="none" viewBox="0 0 49.3206 49.3206" width="49.3206">
-        <g id="Group 472177338">
-          <circle cx="24.6603" cy="24.6603" id="Ellipse 2388" r="24.1603" stroke="#3D3D3D" />
-        </g>
-      </svg>
+      <div className="absolute inset-0" style={{ border: "1.5px solid #3D3D3D", borderRadius: "50%", boxSizing: "border-box" }} />
     </div>
   );
 }
@@ -296,7 +284,7 @@ function Group7() {
 
 function Group10() {
   return (
-    <div className="absolute h-[29.575px] left-[calc(50%+63.44px)] top-[983.42px] w-[30.164px]">
+    <div className="absolute h-[29.575px] left-[calc(50%+63.25px)] top-[983.42px] w-[30.164px]">
       <svg className="absolute block inset-0 size-full" fill="none" height="29.5752" preserveAspectRatio="none" viewBox="0 0 30.1639 29.5752" width="30.1639">
         <g id="Group 1000009908">
           <path d={svgPaths.p3d4b4d00} fill="#3D3D3D" id="Vector" />
@@ -363,7 +351,7 @@ function Group10() {
 
 function Group11() {
   return (
-    <div className="absolute h-[24.757px] left-[calc(50%+114.44px)] top-[984.42px] w-[34.712px]">
+    <div className="absolute h-[24.757px] left-[calc(50%+114.66px)] top-[984.42px] w-[34.712px]">
       <svg className="absolute block inset-0 size-full" fill="none" height="24.7568" preserveAspectRatio="none" viewBox="0 0 34.7119 24.7568" width="34.7119">
         <g id="Group 1000009909">
           <path d={svgPaths.p2ba22b00} fill="#3D3D3D" id="Vector" />

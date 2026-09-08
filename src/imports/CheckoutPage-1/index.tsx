@@ -619,11 +619,7 @@ function Frame2() {
 function Group3() {
   return (
     <div className="col-1 ml-0 mt-0 relative row-1 size-[48.553px]">
-      <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
-        <g id="Group 472177336">
-          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="white" />
-        </g>
-      </svg>
+      <div className="absolute inset-0" style={{ border: "1.5px solid #FFFFFF", borderRadius: "50%", boxSizing: "border-box" }} />
     </div>
   );
 }
@@ -644,7 +640,7 @@ function Group1() {
 
 function Group() {
   return (
-    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[62.51px] mt-[12.08px] place-items-start relative row-1" data-name="Group">
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[64.38px] mt-[12.08px] place-items-start relative row-1" data-name="Group">
       <Group1 />
     </div>
   );
@@ -652,16 +648,12 @@ function Group() {
 
 function Group4() {
   return (
-    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[52.14px] mt-0 place-items-start relative row-1">
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[52.55px] mt-0 place-items-start relative row-1">
       <div className="col-1 ml-0 mt-0 relative row-1 size-[48.553px]">
-        <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
-          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="white" />
-        </svg>
+        <div className="absolute inset-0" style={{ border: "1.5px solid #FFFFFF", borderRadius: "50%", boxSizing: "border-box" }} />
       </div>
-      <div className="col-1 ml-[50.68px] mt-0 relative row-1 size-[48.553px]">
-        <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
-          <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="white" />
-        </svg>
+      <div className="col-1 ml-[52.55px] mt-0 relative row-1 size-[48.553px]">
+        <div className="absolute inset-0" style={{ border: "1.5px solid #FFFFFF", borderRadius: "50%", boxSizing: "border-box" }} />
       </div>
       <Group />
     </div>
@@ -679,7 +671,7 @@ function Group6() {
 
 function Group7() {
   return (
-    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[53.52px] mt-[0.39px] place-items-start relative row-1">
+    <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[53.32px] mt-[0.39px] place-items-start relative row-1">
       <Group6 />
     </div>
   );
@@ -688,11 +680,7 @@ function Group7() {
 function Group5() {
   return (
     <div className="col-1 ml-0 mt-0 relative row-1 size-[49.321px]">
-      <svg className="absolute block inset-0 size-full" fill="none" height="49.3206" preserveAspectRatio="none" viewBox="0 0 49.3206 49.3206" width="49.3206">
-        <g id="Group 472177338">
-          <circle cx="24.6603" cy="24.6603" id="Ellipse 2388" r="24.1603" stroke="white" />
-        </g>
-      </svg>
+      <div className="absolute inset-0" style={{ border: "1.5px solid #FFFFFF", borderRadius: "50%", boxSizing: "border-box" }} />
     </div>
   );
 }
@@ -707,7 +695,7 @@ function Group8() {
 
 function Group12() {
   return (
-    <div className="col-1 h-[29.575px] ml-[61.93px] mt-[11px] relative row-1 w-[30.16px]">
+    <div className="col-1 h-[29.575px] ml-[61.73px] mt-[11px] relative row-1 w-[30.16px]">
       <svg className="absolute block inset-0 size-full" fill="none" height="29.5742" preserveAspectRatio="none" viewBox="0 0 30.1601 29.5742" width="30.1601">
         <g id="Group 1000009908">
           <path d={svgPaths.p71f0a80} fill="white" id="Vector" />
@@ -774,7 +762,7 @@ function Group12() {
 
 function Group13() {
   return (
-    <div className="col-1 h-[24.759px] ml-[112.93px] mt-[12px] relative row-1 w-[34.709px]">
+    <div className="col-1 h-[24.759px] ml-[113.14px] mt-[12px] relative row-1 w-[34.709px]">
       <svg className="absolute block inset-0 size-full" fill="none" height="24.7588" preserveAspectRatio="none" viewBox="0 0 34.709 24.7588" width="34.709">
         <g id="Group 1000009909">
           <path d={svgPaths.p2e866300} fill="white" id="Vector" />

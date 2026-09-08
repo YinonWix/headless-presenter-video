@@ -219,7 +219,7 @@ function Group2() {
 
 function Group1() {
   return (
-    <div className="absolute inset-[90.52%_39.87%_7.22%_58.84%]" data-name="Group">
+    <div className="absolute h-[24.397px] left-[calc(50%+169.69px)] top-[984.89px] w-[24.878px]" data-name="Group">
       <svg className="absolute block inset-0 size-full" fill="none" height="24.3969" preserveAspectRatio="none" viewBox="0 0 24.8783 24.3969" width="24.8783">
         <g id="Group">
           <path d={svgPaths.p2e157480} fill="#3D3D3D" id="Vector" stroke="#3D3D3D" strokeWidth="0.3" />
@@ -247,7 +247,7 @@ function Group3() {
           <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="#3D3D3D" />
         </svg>
       </div>
-      <div className="absolute left-[calc(58.33%-2.15px)] size-[48.553px] top-[972.81px]">
+      <div className="absolute left-[calc(50%+157.86px)] size-[48.553px] top-[972.81px]">
         <svg className="absolute block inset-0 size-full" fill="none" height="48.5534" preserveAspectRatio="none" viewBox="0 0 48.5534 48.5534" width="48.5534">
           <circle cx="24.2767" cy="24.2767" id="Ellipse 2388" r="23.7767" stroke="#3D3D3D" />
         </svg>
@@ -296,7 +296,7 @@ function Group7() {
 
 function Group10() {
   return (
-    <div className="absolute inset-[90.28%_45.13%_6.98%_53.3%]">
+    <div className="absolute h-[29.575px] left-[calc(50%+63.44px)] top-[983.42px] w-[30.164px]">
       <svg className="absolute block inset-0 size-full" fill="none" height="29.5752" preserveAspectRatio="none" viewBox="0 0 30.1639 29.5752" width="30.1639">
         <g id="Group 1000009908">
           <path d={svgPaths.p3d4b4d00} fill="#3D3D3D" id="Vector" />
@@ -363,7 +363,7 @@ function Group10() {
 
 function Group11() {
   return (
-    <div className="absolute inset-[90.5%_42.23%_7.21%_55.96%]">
+    <div className="absolute h-[24.757px] left-[calc(50%+114.44px)] top-[984.42px] w-[34.712px]">
       <svg className="absolute block inset-0 size-full" fill="none" height="24.7568" preserveAspectRatio="none" viewBox="0 0 34.7119 24.7568" width="34.7119">
         <g id="Group 1000009909">
           <path d={svgPaths.p2ba22b00} fill="#3D3D3D" id="Vector" />
@@ -454,7 +454,7 @@ function Group11() {
 
 function Group12() {
   return (
-    <div className="absolute inset-[90.3%_47.86%_7.0%_50.6%]">
+    <div className="absolute h-[29.178px] left-[calc(50%+11.44px)] top-[982.42px] w-[29.609px]">
       <svg className="absolute block inset-0 size-full" fill="none" height="29.178" preserveAspectRatio="none" viewBox="0 0 29.6091 29.178" width="29.6091">
         <g id="Group 1000009910">
           <path d={svgPaths.p28081800} fill="#3D3D3D" id="Vector" />

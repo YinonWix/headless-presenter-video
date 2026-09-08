@@ -69,13 +69,24 @@ function Frame1() {
   return (
     <div className="absolute content-stretch flex items-start left-[calc(75%+75.74px)] top-[463.98px]">
       <div className="[word-break:break-word] font-['Helvetica_Neue_W01_65_Medium:Regular',sans-serif] leading-[0] lowercase not-italic relative shrink-0 text-[16.222px] text-black w-[284px] whitespace-pre-wrap">
-        <p className="font-['Helvetica_Neue_W01_45_Light:Regular',sans-serif] mb-0" dir="auto">
+        {/* Figma breaks this paragraph after "bold" and keeps "design. ... action" on one
+            line, 3 lines / 51px total. The export left it to auto-wrap inside a 284px box,
+            which only works with the real Helvetica Neue W01 45 Light; the sans-serif
+            fallback measures that second line at 290.3px, so "action" fell to a 4th line.
+            The break is therefore explicit and each line is nowrap, which pins the wrap
+            points to Figma's on every platform instead of leaving them to whatever the
+            local sans-serif happens to measure. Line 2 overhangs the 284px box by ~6px;
+            nothing is drawn to the right of it and the panel runs to x=1920, so the
+            overhang is invisible. Delete once the real font is served. */}
+        <p className="font-['Helvetica_Neue_W01_45_Light:Regular',sans-serif] mb-0 whitespace-nowrap" dir="auto">
           <span className="leading-[16.801px] uppercase">N</span>
-          <span className="leading-[16.801px]">{`ext-generation cushioning meets bold design. `}</span>
+          <span className="leading-[16.801px]">{`ext-generation cushioning meets bold`}</span>
+          <br />
+          <span className="leading-[16.801px]">{`design. `}</span>
           <span className="capitalize leading-[16.801px]">S</span>
           <span className="leading-[16.801px]">lide inside for immediate action</span>
         </p>
-        <p className="font-['Helvetica_Neue_W01_45_Light:Regular',sans-serif]" dir="auto">
+        <p className="font-['Helvetica_Neue_W01_45_Light:Regular',sans-serif] whitespace-nowrap" dir="auto">
           <span className="capitalize leading-[16.801px] text-black">M</span>
           <span className="leading-[16.801px]">{`aster at Walk, highest in technology. `}</span>
           <span className="leading-[16.801px] text-black">{` `}</span>
@@ -735,7 +746,15 @@ function Group21() {
 
 export default function ProductPage() {
   return (
-    <div className="bg-[#f5f3ec] relative size-full" data-name="Product Page">
+    /* Was bg-[#f5f3ec]. `rest_10` below is h-1092 pinned to bottom -11.12 inside an
+       1088-tall frame, so its top edge lands at y=7.12 and the page fill showed
+       through as a 7px beige strip along the top of the right-hand panel -- the only
+       place it was ever visible, since the hero photo covers x 0..914 from y=0. White
+       makes that strip continuous with the panel. Nudging `rest_10` up instead would
+       drag every one of its children -- and the overlay coordinates in
+       pages/Product.tsx, which are all frame-top + 7.12 -- up with it.
+       Re-apply after a re-export. */
+    <div className="bg-white relative size-full" data-name="Product Page">
       <Rest />
       {/* Moved up from the end of this list on purpose. The frame already draws
           the SOLE (+) DROP logo -- <Group9 /> is the twin spiral mark, <Group21 />

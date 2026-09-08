@@ -111,15 +111,29 @@ export default function Product() {
           background: cartHover ? BLUE : LIME,
         }}
       >
+        {/* Both labels are positioned by box top + an explicit line-height, because the
+            baseline is top + lineHeight/2 + ascent -- leaving the line-height at `normal`
+            moves the ink even when the top is right, and the two fonts have different
+            metrics, so it moved them in opposite directions.
+
+            The tops are NOT the frame's. The frame draws these same two texts underneath,
+            but it puts the price 6.73px and the label 2.49px below the bar's true centre
+            (83.956 / 2 = 41.978), leaving them 4.24px apart -- which is the misalignment
+            you can see. For the price that is a Make export bug: a centred 35.811 line box
+            belongs at 834.16 + (83.956 - 35.811) / 2 = 858.23, and the frame says 865.49,
+            7.26px lower -- the 7.11px `Rest` wrapper offset, baked into the top and then
+            applied a second time by the wrapper. So these tops centre each text's own ink
+            box (digits for the price, caps for the label) on the bar instead. Safe to
+            deviate: this button is opaque and fully covers the frame's copies. */}
         <span
           className="absolute font-['Questrial:Regular',sans-serif] text-[20px] tracking-[-1px] uppercase whitespace-nowrap"
-          style={{ left: 41.35, top: 31.33, color: cartHover ? "#fff" : "#000" }}
+          style={{ left: 41.35, top: 24.61, lineHeight: "35.811px", color: cartHover ? "#fff" : "#000" }}
         >
           ${PRODUCT.price.toFixed(2)}
         </span>
         <span
           className="absolute -translate-x-1/2 font-['Gowun_Batang:Regular',sans-serif] text-[19.987px] tracking-[0.9994px] uppercase whitespace-nowrap"
-          style={{ left: 685.85, top: 33, color: cartHover ? "#fff" : "#000" }}
+          style={{ left: 685.85, top: 41.38, lineHeight: "0px", color: cartHover ? "#fff" : "#000" }}
         >
           add to cart
         </span>

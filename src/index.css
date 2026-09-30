@@ -124,6 +124,12 @@ html {
   will-change: transform;
 }
 
+/* Toggled by clicking the section. A separate rule rather than an inline style,
+   so it can never override the reduced-motion pause below. */
+.logo-marquee[data-paused] {
+  animation-play-state: paused;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .logo-marquee {
     animation-play-state: paused;

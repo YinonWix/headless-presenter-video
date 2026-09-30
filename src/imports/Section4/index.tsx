@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import imgSpiralLarge from "./spiral-large.svg";
 import imgSpiralSmall from "./spiral-small.svg";
 
@@ -54,6 +54,7 @@ function Logo({ hidden }: { hidden?: boolean }) {
     >
       <img
         alt=""
+        draggable={false}
         className="absolute left-0 top-[61.6px] block max-w-none"
         width="1029.24"
         height="381.869"
@@ -70,6 +71,7 @@ function Logo({ hidden }: { hidden?: boolean }) {
       </p>
       <img
         alt=""
+        draggable={false}
         className="absolute left-[2042.48px] top-[143.07px] block max-w-none"
         width="163.959"
         height="157.351"
@@ -84,8 +86,14 @@ function Logo({ hidden }: { hidden?: boolean }) {
  * Frame 0 is the Figma layout (large spiral bleeding 322px off the left edge);
  * the track then slides left by one copy width per loop, and the second copy
  * lands exactly where the first began, so the reset is invisible.
+ *
+ * Clicking the section (or Enter / Space when focused) toggles the marquee
+ * between paused and running; the animation resumes from where it stopped.
  */
 export default function Section4() {
+  const [paused, setPaused] = useState(false);
+  const toggle = () => setPaused((p) => !p);
+
   // Italianno is only used on hover, so the browser would not fetch it until the
   // first hovered letter, which would render a blank frame. Fetch it up front.
   useEffect(() => {
@@ -93,7 +101,24 @@ export default function Section4() {
   }, []);
 
   return (
-    <div className="bg-[#e5fb79] relative size-full overflow-clip" data-name="Section 4">
+    // No text selection or image dragging, and a hand cursor since the whole
+    // section is a pause/play toggle. Hover still reaches the letters, so the
+    // Italianno swap keeps working.
+    <div
+      role="button"
+      tabIndex={0}
+      aria-pressed={paused}
+      aria-label={paused ? "Play the SOLE DROP animation" : "Pause the SOLE DROP animation"}
+      onClick={toggle}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggle();
+        }
+      }}
+      className="bg-[#e5fb79] relative size-full overflow-clip select-none cursor-pointer"
+      data-name="Section 4"
+    >
       <svg width="0" height="0" className="absolute" aria-hidden>
         {/* Figma's two INNER_SHADOW effects on the Logo group, in Figma's own
             SVG-export form (blur radius r becomes stdDeviation r/2). */}
@@ -114,6 +139,7 @@ export default function Section4() {
 
       <div
         className="logo-marquee absolute left-[-322px] top-[15px] flex"
+        data-paused={paused || undefined}
         style={{ "--loop-w": `${LOOP_W}px`, "--loop-s": `${LOOP_S}s` } as React.CSSProperties}
       >
         <Logo />

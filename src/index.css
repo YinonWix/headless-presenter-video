@@ -63,6 +63,26 @@
   src: url("./fonts/Helvetica_Neue_W01_65_Medium-Regular.woff2") format("woff2");
 }
 
+/* Gowun Batang Bold only appears in Home Section 5 ("The Outdoor Blog"), which
+   postdates the Make export, so there is no Figma-served copy to subset from.
+   This is Google's own "latin" subset woff2 (16 KB), used as-is. */
+@font-face {
+  font-family: "Gowun Batang:Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/GowunBatang-Bold.woff2") format("woff2");
+}
+
+/* Italianno is not in any Figma frame: it is the hover face for the SOLE DROP
+   wordmark in Home Section 4. Google's own "latin" subset woff2 (25 KB), used
+   as-is. */
+@font-face {
+  font-family: "Italianno";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Italianno-Regular.woff2") format("woff2");
+}
+
 html,
 body,
 #root {
@@ -87,4 +107,71 @@ body,
 html {
   scrollbar-gutter: stable;
   overflow-x: hidden;
+}
+
+/* ---- Home Section 4: SOLE DROP marquee ---------------------------------- */
+
+/* Slide left by exactly one Logo copy per loop; the second copy then sits where
+   the first started, so restarting the animation is seamless. */
+@keyframes logo-marquee {
+  to {
+    transform: translateX(calc(-1 * var(--loop-w)));
+  }
+}
+
+.logo-marquee {
+  animation: logo-marquee var(--loop-s) linear infinite;
+  will-change: transform;
+}
+
+/* Toggled by clicking the section. A separate rule rather than an inline style,
+   so it can never override the reduced-motion pause below. */
+.logo-marquee[data-paused] {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee {
+    animation-play-state: paused;
+  }
+}
+
+/* Figma: 4px white stroke, OUTSIDE. CSS strokes are centred on the outline, so
+   draw 8px and paint it under the fill, leaving 4px showing outside. */
+.logo-wordmark {
+  -webkit-text-stroke: 8px #fff;
+  paint-order: stroke fill;
+}
+
+/* Hover swap: see Letter in src/imports/Section4/index.tsx. */
+.logo-letter {
+  display: inline-grid;
+  align-items: baseline;
+}
+
+.logo-letter > * {
+  grid-area: 1 / 1;
+}
+
+.logo-letter-alt {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 0;
+  line-height: 0;
+  font-family: "Italianno", cursive;
+  /* Italianno's capitals are much shorter than Gowun Batang's, so on a shared
+     baseline the script letter reads as dropping. Measured on ink, the centre
+     of every S/O/L/E/D/R/P sits 0.157-0.164em lower; lift it by that so the
+     swapped letter stays centred where the original was. */
+  transform: translateY(-0.16em);
+  visibility: hidden;
+}
+
+.logo-letter:hover .logo-letter-base {
+  visibility: hidden;
+}
+
+.logo-letter:hover .logo-letter-alt {
+  visibility: visible;
 }

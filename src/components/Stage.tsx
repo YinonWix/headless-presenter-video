@@ -5,7 +5,7 @@ const DESIGN_W = 1920;
 /**
  * Pages at or below this design height are a single screen and must fit the
  * viewport without scrolling; taller pages are intentionally multi-section
- * (Home stacks 1088 + 1088 + 638 + 570px sections = 3384px) and are meant to scroll.
+ * (Home stacks 1088 + 1088 + 638 + 570 + 1307px sections = 4691px) and are meant to scroll.
  */
 const SINGLE_SCREEN_MAX_H = 1200;
 

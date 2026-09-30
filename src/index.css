@@ -63,6 +63,16 @@
   src: url("./fonts/Helvetica_Neue_W01_65_Medium-Regular.woff2") format("woff2");
 }
 
+/* Gowun Batang Bold only appears in Home Section 5 ("The Outdoor Blog"), which
+   postdates the Make export, so there is no Figma-served copy to subset from.
+   This is Google's own "latin" subset woff2 (16 KB), used as-is. */
+@font-face {
+  font-family: "Gowun Batang:Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/GowunBatang-Bold.woff2") format("woff2");
+}
+
 /* Italianno is not in any Figma frame: it is the hover face for the SOLE DROP
    wordmark in Home Section 4. Google's own "latin" subset woff2 (25 KB), used
    as-is. */

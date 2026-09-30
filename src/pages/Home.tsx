@@ -4,13 +4,15 @@ import HeroSection1 from "@/imports/HeroSection3";
 import HeroProducts from "@/imports/HeroSection2-1";
 import HeroProductsHover from "@/imports/HeroSection2HoverOnProduct-1";
 import TeamLineup from "@/imports/Section3";
+import LogoMarquee from "@/imports/Section4";
 
 const SECTION_H = 1088;
 const SECTION_3_H = 638;
+const SECTION_4_H = 570;
 
 /**
  * Home page = Hero Section 1 (top) + Hero Section 2 (product row) + Section 3
- * (full-bleed team line-up photo) stacked.
+ * (full-bleed team line-up photo) + Section 4 (SOLE DROP marquee) stacked.
  * Demo interactivity: only the middle product (Røket-9) is live. Hovering it
  * swaps the section to its hover artwork (lime tag → blue); clicking navigates
  * to the Product page. Cellu / Dermo are presentation-only.
@@ -44,6 +46,11 @@ export default function Home() {
       {/* Section 3 — team line-up photo */}
       <div className="relative" style={{ width: 1920, height: SECTION_3_H }}>
         <TeamLineup />
+      </div>
+
+      {/* Section 4 — SOLE DROP marquee (letters swap to Italianno on hover) */}
+      <div className="relative" style={{ width: 1920, height: SECTION_4_H }}>
+        <LogoMarquee />
       </div>
     </div>
   );

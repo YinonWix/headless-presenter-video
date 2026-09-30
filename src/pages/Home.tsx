@@ -3,11 +3,14 @@ import { useNavigate } from "react-router-dom";
 import HeroSection1 from "@/imports/HeroSection3";
 import HeroProducts from "@/imports/HeroSection2-1";
 import HeroProductsHover from "@/imports/HeroSection2HoverOnProduct-1";
+import TeamLineup from "@/imports/Section3";
 
 const SECTION_H = 1088;
+const SECTION_3_H = 638;
 
 /**
- * Home page = Hero Section 1 (top) + Hero Section 2 (product row) stacked.
+ * Home page = Hero Section 1 (top) + Hero Section 2 (product row) + Section 3
+ * (full-bleed team line-up photo) stacked.
  * Demo interactivity: only the middle product (Røket-9) is live. Hovering it
  * swaps the section to its hover artwork (lime tag → blue); clicking navigates
  * to the Product page. Cellu / Dermo are presentation-only.
@@ -36,6 +39,11 @@ export default function Home() {
           className="absolute cursor-pointer bg-transparent"
           style={{ left: 673, top: 277, width: 573, height: 673 }}
         />
+      </div>
+
+      {/* Section 3 — team line-up photo */}
+      <div className="relative" style={{ width: 1920, height: SECTION_3_H }}>
+        <TeamLineup />
       </div>
     </div>
   );
